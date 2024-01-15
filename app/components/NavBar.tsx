@@ -38,7 +38,7 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`flex justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+          className={`flex justify-self-center pb-3 mt-2 md:block md:pb-0 md:mt-0 ${
             state ? "block" : "hidden"
           }`}
         >
