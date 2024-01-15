@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
+import RegisterButton from "./RegisterButton";
 
 const Hero = () => {
   return (
@@ -8,8 +9,8 @@ const Hero = () => {
         <Image
           src="/favicon.ico"
           alt="Picture of the author"
-          height={500}
-          width={500}
+          height={400}
+          width={400}
           className="mx-auto mt-8 mb-4 "
         />
       </div>
@@ -22,6 +23,8 @@ const Hero = () => {
         dolore quia doloremque doloribus, harum facere iste deserunt accusamus
         eligendi aliquam ut voluptas quidem ad.
       </div>
+
+      <RegisterButton />
     </div>
   );
 };
