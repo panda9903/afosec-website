@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import RegisterButton from "./RegisterButton";
+import RegisterButton from "./(Hero Section)/RegisterButton";
+import DownArrow from "./(Hero Section)/Down Arrow";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
           alt="Picture of the author"
           height={400}
           width={400}
-          className="mx-auto mt-8 mb-4 "
+          className="mx-auto mt-4 mb-4 "
         />
       </div>
 
@@ -25,6 +26,8 @@ const Hero = () => {
       </div>
 
       <RegisterButton />
+
+      <DownArrow />
     </div>
   );
 };
