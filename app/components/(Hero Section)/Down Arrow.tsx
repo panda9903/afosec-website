@@ -5,7 +5,7 @@ import Image from "next/image";
 const DownArrow = () => {
   return (
     <div className="mx-auto">
-      <Link href="/register">
+      <Link href="#about">
         <Image
           src="/arrow.svg"
           alt="Arrow"
