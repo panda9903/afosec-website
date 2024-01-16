@@ -68,6 +68,10 @@ const EventCarousel = () => {
   return (
     <div className="flex justify-center">
       <Carousel
+        opts={{
+          align: "start",
+          loop: true,
+        }}
         className="md:w-full max-w-[16rem] md:max-w-xs"
         plugins={[
           Autoplay({
