@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "medotg99"
+  },
+  "targets": {
+    "medotg99": {
+      "hosting": {
+        "afosec-website": [
+          "afosec-website"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
