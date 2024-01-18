@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
-import RegisterButton from "./(Hero Section)/RegisterButton";
-import DownArrow from "./(Hero Section)/Down Arrow";
+import RegisterButton from "../(Hero Section)/RegisterButton";
+import DownArrow from "../(Hero Section)/Down Arrow";
 
 const Hero = () => {
   return (
