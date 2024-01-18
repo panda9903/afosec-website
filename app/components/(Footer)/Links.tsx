@@ -15,7 +15,7 @@ const Links = () => {
           height={30}
           width={30}
           alt="Logo"
-          className="my-4"
+          className="my-4 mr-2"
         ></Image>
       </a>
       <a href="https://www.facebook.com" target="_blank">
@@ -24,7 +24,7 @@ const Links = () => {
           height={30}
           width={30}
           alt="Logo"
-          className="my-4"
+          className="my-4 mx-2"
         ></Image>
       </a>
       <a href="https://www.twitter.com" target="_blank">
@@ -33,7 +33,7 @@ const Links = () => {
           height={30}
           width={30}
           alt="Logo"
-          className="my-4"
+          className="my-4 mx-2"
         ></Image>
       </a>
       <a href="https://www.linkedin.com" target="_blank">
@@ -42,7 +42,7 @@ const Links = () => {
           height={30}
           width={30}
           alt="Logo"
-          className="my-4"
+          className="my-4 ml-2"
         ></Image>
       </a>
     </div>
