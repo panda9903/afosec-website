@@ -1,13 +1,17 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Instagram from "@public/Group.svg";
+import Facebook from "@public/Group (1).svg";
+import Twitter from "@public/Group (2).svg";
+import Linkedin from "@public/Vector.svg";
 
 const Links = () => {
   return (
     <div className="flex justify-stretch">
       <a href="https://www.instagram.com" target="_blank">
         <Image
-          src="/Group.svg"
+          src={Instagram}
           height={30}
           width={30}
           alt="Logo"
@@ -16,7 +20,7 @@ const Links = () => {
       </a>
       <a href="https://www.facebook.com" target="_blank">
         <Image
-          src="/Group (1).svg"
+          src={Facebook}
           height={30}
           width={30}
           alt="Logo"
@@ -25,7 +29,7 @@ const Links = () => {
       </a>
       <a href="https://www.twitter.com" target="_blank">
         <Image
-          src="/Group (2).svg"
+          src={Twitter}
           height={30}
           width={30}
           alt="Logo"
@@ -34,7 +38,7 @@ const Links = () => {
       </a>
       <a href="https://www.linkedin.com" target="_blank">
         <Image
-          src="/Vector.svg"
+          src={Linkedin}
           height={30}
           width={30}
           alt="Logo"
