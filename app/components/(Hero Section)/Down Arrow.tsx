@@ -1,13 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import downArrow from "@images/down-arrow.png";
 
 const DownArrow = () => {
   return (
     <div className="mx-auto">
       <Link href="#about">
         <Image
-          src="/arrow.svg"
+          src={downArrow}
           alt="Arrow"
           height={20}
           width={20}
