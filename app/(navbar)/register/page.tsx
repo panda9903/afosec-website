@@ -11,8 +11,8 @@ export default function Home() {
       <NavBar />
 
       <div className="p-8 flex flex-col">
-        <p className="text-4xl">Register</p>
-        <div className="items-center">
+        <p className="text-4xl mb-8">Register</p>
+        <div className=" items-center">
           <ProfileForm />
         </div>
       </div>

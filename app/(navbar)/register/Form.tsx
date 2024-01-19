@@ -17,9 +17,7 @@ import {
 import { Input } from "@/components/ui/input";
 
 const formSchema = z.object({
-  username: z.string().min(2, {
-    message: "Username must be at least 2 characters",
-  }),
+  username: z.string(),
   college: z.string(),
   email: z.string().email({
     message: "Enter valid email address",
@@ -57,16 +55,20 @@ export function ProfileForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 text-white flex flex-col items-center"
+        className="space-y-8 text-white flex flex-col w-full"
       >
         <FormField
           control={form.control}
           name="username"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Username</FormLabel>
+              <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="shadcn" className="text-black" {...field} />
+                <Input
+                  placeholder="Full Name"
+                  className="text-black min-w-2xl max-w-2xl"
+                  {...field}
+                />
               </FormControl>
 
               <FormMessage />
@@ -81,9 +83,12 @@ export function ProfileForm() {
             <FormItem>
               <FormLabel>College</FormLabel>
               <FormControl>
-                <Input placeholder="shadcn" className="text-black" {...field} />
+                <Input
+                  placeholder="Full College Name"
+                  className="text-black min-w-2xl max-w-2xl"
+                  {...field}
+                />
               </FormControl>
-              <FormDescription>Enter full college name.</FormDescription>
               <FormMessage />
             </FormItem>
           )}
@@ -96,7 +101,11 @@ export function ProfileForm() {
             <FormItem>
               <FormLabel>Phone</FormLabel>
               <FormControl>
-                <Input placeholder="shadcn" className="text-black" {...field} />
+                <Input
+                  placeholder="9876543210"
+                  className="text-black min-w-2xl max-w-2xl"
+                  {...field}
+                />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -108,17 +117,22 @@ export function ProfileForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel>College Email</FormLabel>
               <FormControl>
-                <Input placeholder="shadcn" className="text-black" {...field} />
+                <Input
+                  placeholder="abc@org.in"
+                  className="text-black min-w-2xl max-w-2xl"
+                  {...field}
+                />
               </FormControl>
-              <FormDescription>Enter college mail</FormDescription>
               <FormMessage />
             </FormItem>
           )}
         />
 
-        <Button type="submit">Submit</Button>
+        <Button type="submit" className=" max-w-48">
+          Submit
+        </Button>
       </form>
     </Form>
   );
