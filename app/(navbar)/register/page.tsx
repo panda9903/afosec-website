@@ -1,7 +1,18 @@
-import React from "react";
+import NavBar from "app/components/(NavBar)/NavBar";
+import Footer from "app/components/(Footer)/Footer";
 
-const Register = () => {
-  return <div>Register</div>;
-};
+// use sizes to set the image size in responsive screen
+// https://nextjs.org/docs/pages/api-reference/components/image?sizes#sizes
 
-export default Register;
+export default function Home() {
+  return (
+    <div className="bg-[#131313] text-primary-foreground font-sans">
+      <NavBar />
+
+      <div className="p-8">
+        <p className="text-4xl">Register</p>
+      </div>
+      <Footer />
+    </div>
+  );
+}
