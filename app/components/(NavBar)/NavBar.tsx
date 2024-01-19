@@ -20,13 +20,16 @@ export default function Navbar() {
       <div className="items-center justify-between md:flex">
         <div className="flex items-center justify-between py-3 md:block">
           <Link href="/">
-            <Image
-              src="/favicon.ico"
-              alt="Logo"
-              width={30}
-              height={30}
-              className="m-2"
-            ></Image>
+            <div className="flex items-center justify-around">
+              <Image
+                src="/favicon.ico"
+                alt="Logo"
+                width={30}
+                height={30}
+                className="m-2"
+              ></Image>
+              AFOSEC
+            </div>
           </Link>
           <div className="md:hidden">
             <button
