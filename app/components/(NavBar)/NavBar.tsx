@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const menus = [
     { title: "Events", path: "/events" },
-    { title: "Accommodation", path: "/accommodation" },
+    { title: "FAQ", path: "/faq" },
     { title: "Contact Us", path: "/contact" },
     { title: "Register", path: "/register" },
   ];
