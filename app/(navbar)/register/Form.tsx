@@ -52,10 +52,10 @@ export function ProfileForm() {
   }
 
   return (
-    <Form {...form}>
+    <Form {...form} >
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 text-white flex flex-col w-full"
+        className="space-y-8 text-white flex flex-col items-center justify-center w-full mx-auto"
       >
         <FormField
           control={form.control}
@@ -64,11 +64,13 @@ export function ProfileForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
+            
                 <Input
                   placeholder="Full Name"
-                  className="text-black min-w-2xl max-w-2xl"
+                  className="text-black w-96"
                   {...field}
                 />
+              
               </FormControl>
 
               <FormMessage />
@@ -85,7 +87,7 @@ export function ProfileForm() {
               <FormControl>
                 <Input
                   placeholder="Full College Name"
-                  className="text-black min-w-2xl max-w-2xl"
+                  className="text-black w-96 "
                   {...field}
                 />
               </FormControl>
@@ -103,7 +105,7 @@ export function ProfileForm() {
               <FormControl>
                 <Input
                   placeholder="9876543210"
-                  className="text-black min-w-2xl max-w-2xl"
+                  className="text-black w-96"
                   {...field}
                 />
               </FormControl>
@@ -121,7 +123,7 @@ export function ProfileForm() {
               <FormControl>
                 <Input
                   placeholder="abc@org.in"
-                  className="text-black min-w-2xl max-w-2xl"
+                  className="text-black w-96"
                   {...field}
                 />
               </FormControl>
