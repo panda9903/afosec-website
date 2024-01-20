@@ -55,11 +55,7 @@ export function ProfileForm() {
     <Form {...form} >
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-<<<<<<< HEAD
         className="space-y-8 text-white flex flex-col items-center justify-center w-full mx-auto"
-=======
-        className="space-y-8 text-white"
->>>>>>> f03e8338dcc139366cc8ae8ac5147807b2266c97
       >
         <FormField
           control={form.control}
