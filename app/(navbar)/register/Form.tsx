@@ -55,14 +55,14 @@ export function ProfileForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 text-white flex flex-col w-full"
+        className="space-y-8 text-white"
       >
         <FormField
           control={form.control}
           name="username"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel className="">Name</FormLabel>
               <FormControl>
                 <Input
                   placeholder="Full Name"
@@ -130,9 +130,11 @@ export function ProfileForm() {
           )}
         />
 
-        <Button type="submit" className=" max-w-48">
-          Submit
-        </Button>
+        <div className="flex items-center">
+          <Button type="submit" className="max-w-48 mx-auto">
+            Submit
+          </Button>
+        </div>
       </form>
     </Form>
   );

@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className="p-8 flex flex-col">
         <p className="text-4xl mb-8">Register</p>
-        <div className=" items-center">
+        <div className="">
           <ProfileForm />
         </div>
       </div>
