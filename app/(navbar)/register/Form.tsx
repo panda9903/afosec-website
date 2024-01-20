@@ -55,24 +55,21 @@ export function ProfileForm() {
     <Form {...form} >
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 text-white flex flex-col items-center justify-center w-full mx-auto"
+        className="space-y-8 text-white flex flex-col items-center w-full"
       >
         <FormField
           control={form.control}
           name="username"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="">Name</FormLabel>
+              <FormLabel>Name</FormLabel>
               <FormControl>
-            
                 <Input
-                  placeholder="Full Name"
+                  placeholder=" "
                   className="text-black w-96"
                   {...field}
                 />
-              
               </FormControl>
-
               <FormMessage />
             </FormItem>
           )}
@@ -86,8 +83,8 @@ export function ProfileForm() {
               <FormLabel>College</FormLabel>
               <FormControl>
                 <Input
-                  placeholder="Full College Name"
-                  className="text-black w-96 "
+                  placeholder=" "
+                  className="text-black w-96"
                   {...field}
                 />
               </FormControl>
@@ -104,7 +101,7 @@ export function ProfileForm() {
               <FormLabel>Phone</FormLabel>
               <FormControl>
                 <Input
-                  placeholder="9876543210"
+                  placeholder=" "
                   className="text-black w-96"
                   {...field}
                 />
@@ -122,7 +119,7 @@ export function ProfileForm() {
               <FormLabel>College Email</FormLabel>
               <FormControl>
                 <Input
-                  placeholder="abc@org.in"
+                  placeholder="  "
                   className="text-black w-96"
                   {...field}
                 />
