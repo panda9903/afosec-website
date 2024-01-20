@@ -10,9 +10,9 @@ export default function Home() {
     <div className="bg-[#131313] text-primary-foreground font-sans">
       <NavBar />
 
-      <div className="p-8 flex flex-col">
-        <p className="text-4xl mb-8">Register</p>
-        <div className="items-center ">
+      <div className="flex flex-col p-8">
+        <p className="text-4xl mb-8 text-[#ea8814]">Register</p>
+        <div className="flex items-center justify-center">
           <ProfileForm />
         </div>
       </div>

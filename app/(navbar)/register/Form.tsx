@@ -52,89 +52,94 @@ export function ProfileForm() {
   }
 
   return (
-    <Form {...form} >
-      <form
-        onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 text-white flex flex-col items-center w-full"
-      >
-        <FormField
-          control={form.control}
-          name="username"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Name</FormLabel>
-              <FormControl>
-                <Input
-                  placeholder=" "
-                  className="text-black w-96"
-                  {...field}
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+    <div className="p-8 bg-[#262626] rounded-lg mb-8">
+      <Form {...form}>
+        <form
+          onSubmit={form.handleSubmit(onSubmit)}
+          className="space-y-8 text-white"
+        >
+          <FormField
+            control={form.control}
+            name="username"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Name</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder=" "
+                    className="text-black w-96"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
 
-        <FormField
-          control={form.control}
-          name="college"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>College</FormLabel>
-              <FormControl>
-                <Input
-                  placeholder=" "
-                  className="text-black w-96"
-                  {...field}
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+          <FormField
+            control={form.control}
+            name="college"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>College</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder=" "
+                    className="text-black w-96"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
 
-        <FormField
-          control={form.control}
-          name="phone"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>Phone</FormLabel>
-              <FormControl>
-                <Input
-                  placeholder=" "
-                  className="text-black w-96"
-                  {...field}
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+          <FormField
+            control={form.control}
+            name="phone"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>Phone</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder=" "
+                    className="text-black w-96"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
 
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormLabel>College Email</FormLabel>
-              <FormControl>
-                <Input
-                  placeholder="  "
-                  className="text-black w-96"
-                  {...field}
-                />
-              </FormControl>
-              <FormMessage />
-            </FormItem>
-          )}
-        />
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>College Email</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder="  "
+                    className="text-black w-96"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
 
-        <div className="flex items-center">
-          <Button type="submit" className="max-w-48 mx-auto">
-            Submit
-          </Button>
-        </div>
-      </form>
-    </Form>
+          <div className="flex items-center">
+            <Button
+              type="submit"
+              className="max-w-48 mx-auto bg-black hover:bg-[#EA8814] text-white rounded-md text-center"
+            >
+              Submit
+            </Button>
+          </div>
+        </form>
+      </Form>
+    </div>
   );
 }
