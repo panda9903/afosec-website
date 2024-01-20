@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const menus = [
     { title: "Events", path: "/events" },
-    { title: "Accommodation", path: "/accommodation" },
+    { title: "FAQ", path: "/faq" },
     { title: "Contact Us", path: "/contact" },
     { title: "Register", path: "/register" },
   ];
@@ -45,13 +45,13 @@ export default function Navbar() {
             state ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+          <ul className="justify-center items-center space-y-8 md:flex md:space-x-8 md:space-y-0">
             {menus.map((item, idx) => (
               <li
                 key={idx}
-                className={`hover:text-gray-400 ${
+                className={`p-[6px] hover:p-[6px] hover:bg-white hover:text-black hover hover:rounded-md ${
                   item.title === "Register"
-                    ? " p-[6px] bg-[#EA8814] text-white rounded-md "
+                    ? " p-[6px] bg-[#EA8814] text-white rounded-md text-center"
                     : ""
                 }`}
               >
