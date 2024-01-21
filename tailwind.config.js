@@ -17,12 +17,18 @@ module.exports = {
       },
     },
     extend: {
+      borderRadius: {
+        '4xl': '4rem',
+        '5xl': '2.5rem',
+        '6xl': '3rem',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        'mycolor': '#707579E7',
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -73,5 +79,17 @@ module.exports = {
       },
     },
   },
+  variants: {},
   plugins: [require("tailwindcss-animate")],
+ /* theme: {
+    extend: {
+      borderRadius: {
+        '4xl': '4rem',
+        '5xl': '2.5rem',
+        '6xl': '3rem',
+      }
+    }
+  },
+  variants: {},
+  plugins: [], */
 }

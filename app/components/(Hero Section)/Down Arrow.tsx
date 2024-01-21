@@ -12,7 +12,7 @@ const DownArrow = () => {
           alt="Arrow"
           height={20}
           width={20}
-          className="mx-auto size-8 animate-bounce mt-6 rotate-180 w"
+          className="mx-auto size-8 animate-bounce mt-6 rotate-180 w  hover:bg-mycolor  hover:rounded-3xl"
         />
       </Link>
     </div>
