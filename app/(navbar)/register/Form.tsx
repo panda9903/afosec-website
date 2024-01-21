@@ -57,8 +57,8 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const db = getFirestore(app);
 
+//panda this is values thing which is passed to onSubmit function
 export function ProfileForm() {
-  // ...
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -80,6 +80,7 @@ async function onSubmit(values: z.infer<typeof formSchema>) {
   try {
     const docRef = await addDoc(collection(db, "forms"), values);
     console.log("Document written with ID: ", docRef.id);
+    form.reset(); //form ni idi clear chestadi if no error
   } catch (e) {
     console.error("Error adding document: ", e);
   }
