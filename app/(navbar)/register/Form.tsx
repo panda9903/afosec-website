@@ -51,12 +51,16 @@ const formSchema = z.object({
     }),
 });
 
-
-//Then, initialize Firestore after your Firebase app initialization:
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 const db = getFirestore(app);
 
+//Then, initialize Firestore after your Firebase app initialization:
+if (typeof window !== 'undefined') {
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const db = getFirestore(app);
+  }
 //panda this is values thing which is passed to onSubmit function
 export function ProfileForm() {
   const form = useForm<z.infer<typeof formSchema>>({
