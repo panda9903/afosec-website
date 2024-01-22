@@ -3,7 +3,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
-
+import Events from "./DepEvents";
+import React from "react";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -15,6 +16,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import { SwitchDemo } from "./Accommodation";
 
 const formSchema = z.object({
   username: z.string(),
@@ -51,6 +53,8 @@ export function ProfileForm() {
     console.log(values);
   }
 
+  const [checked, setChecked] = React.useState(false);
+
   return (
     <div className="p-8 bg-[#262626] rounded-lg mb-8">
       <Form {...form}>
@@ -75,7 +79,6 @@ export function ProfileForm() {
               </FormItem>
             )}
           />
-
           <FormField
             control={form.control}
             name="college"
@@ -93,7 +96,6 @@ export function ProfileForm() {
               </FormItem>
             )}
           />
-
           <FormField
             control={form.control}
             name="phone"
@@ -111,7 +113,6 @@ export function ProfileForm() {
               </FormItem>
             )}
           />
-
           <FormField
             control={form.control}
             name="email"
@@ -129,7 +130,8 @@ export function ProfileForm() {
               </FormItem>
             )}
           />
-
+          <Events />
+          <SwitchDemo />
           <div className="flex items-center">
             <Button
               type="submit"
