@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const menus = [
     { title: "Events", path: "/events" },
-    { title: "FAQ", path: "/faq" },
+    { title: " FAQ ", path: "/faq" },
     { title: "Contact Us", path: "/contact" },
     { title: "Register", path: "/register" },
   ];
@@ -49,7 +49,7 @@ export default function Navbar() {
             {menus.map((item, idx) => (
               <li
                 key={idx}
-                className={`p-[6px] hover:p-[6px] hover:bg-white hover:text-black hover hover:rounded-md ${
+                className={`p-[6px] hover:p-[6px] hover:bg-white hover:text-black hover hover:rounded-2xl ${
                   item.title === "Register"
                     ? " p-[6px] bg-[#EA8814] text-white rounded-md text-center"
                     : ""

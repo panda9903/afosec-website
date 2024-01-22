@@ -31,4 +31,17 @@ const config: Config = {
   },
   plugins: [],
 };
+/*  module.exports = {
+  theme: {
+    extend: {
+      borderRadius: {
+        '4xl': '4rem',
+        '5xl': '2.5rem',
+        '6xl': '3rem',
+      }
+    }
+  },
+  variants: {},
+  plugins: [],
+}*/
 export default config;
