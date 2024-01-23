@@ -105,11 +105,11 @@ export function ProfileForm() {
             name="username"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Name</FormLabel>
+                <FormLabel className="ml-4 ">Name</FormLabel>
                 <FormControl>
                   <Input
                     placeholder=" "
-                    className="text-black w-96"
+                    className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
@@ -122,11 +122,11 @@ export function ProfileForm() {
             name="college"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>College</FormLabel>
+                <FormLabel className="ml-4 ">College</FormLabel>
                 <FormControl>
                   <Input
                     placeholder=" "
-                    className="text-black w-96"
+                    className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
@@ -139,11 +139,11 @@ export function ProfileForm() {
             name="phone"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Phone</FormLabel>
+                <FormLabel className="ml-4 ">Phone</FormLabel>
                 <FormControl>
                   <Input
                     placeholder=" "
-                    className="text-black w-96"
+                    className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
@@ -156,11 +156,11 @@ export function ProfileForm() {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>College Email</FormLabel>
+                <FormLabel className="ml-4 ">College Email</FormLabel>
                 <FormControl>
                   <Input
                     placeholder="  "
-                    className="text-black w-96"
+                    className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
