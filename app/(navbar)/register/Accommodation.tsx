@@ -1,6 +1,6 @@
 import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
-import React from "react";
+import React, { useEffect } from "react";
 
 export function SwitchDemo({
   checked,
@@ -9,7 +9,15 @@ export function SwitchDemo({
   checked: boolean;
   setChecked: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
-  const [isChecked, setIsChecked] = React.useState(false);
+  const [isChecked, setIsChecked] = React.useState(checked);
+
+  useEffect(() => {
+    console.log("checked", checked);
+  }, [checked]);
+
+  useEffect(() => {
+    console.log("isChecked", isChecked);
+  }, [isChecked]);
 
   return (
     <div className="flex items-center space-x-2">

@@ -17,16 +17,10 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 
-//import { Chans } from "./Chans"; // replace './Chans' with the actual path to your Chans.tsx file
-//firebase testing shimt here
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
@@ -58,17 +52,14 @@ const formSchema = z.object({
   checked: z.boolean(),
 });
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-//Then, initialize Firestore after your Firebase app initialization:
 if (typeof window !== "undefined") {
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
   const db = getFirestore(app);
 }
-//panda this is values thing which is passed to onSubmit function
 export function ProfileForm() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -84,22 +75,11 @@ export function ProfileForm() {
     },
   });
 
-  // 2. Define a submit handler.
-  /* function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
-    console.log(values);
-  }
-*/
-
   const [checked, setChecked] = React.useState(false);
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      const formValues = form.getValues();
-      form.setValue("checked", checked);
-
-      console.log(formValues);
-      const docRef = await addDoc(collection(db, "forms"), formValues);
+      console.log(values);
+      const docRef = await addDoc(collection(db, "forms"), values);
       console.log("Document written with ID: ", docRef.id);
       form.reset();
     } catch (e) {

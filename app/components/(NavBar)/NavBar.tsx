@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="w-full md:border-0 px-6">
+    <nav className="w-full md:border-0 px-6 sticky top-0 backdrop-blur-sm z-10">
       <div className="items-center justify-between md:flex">
         <div className="flex items-center justify-between py-3 md:block">
           <Link href="/">
