@@ -213,6 +213,9 @@ export function DropdownMenuCheckboxes({
               checked={selectedEvents.includes(event.name)}
               onCheckedChange={() => {
                 const isChecked = selectedEvents.includes(event.name);
+                if (!isChecked && selectedEvents.length >= 2) {
+                  return;
+                }
                 setSelectedEvents((prevSelectedEvents) =>
                   isChecked
                     ? prevSelectedEvents.filter((e) => e !== event.name)

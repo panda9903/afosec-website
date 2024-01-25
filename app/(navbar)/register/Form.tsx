@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 
-import { Chans } from "./Chans"; // replace './Chans' with the actual path to your Chans.tsx file
+//import { Chans } from "./Chans"; // replace './Chans' with the actual path to your Chans.tsx file
 //firebase testing shimt here
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
@@ -28,13 +28,13 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAXHIMLntbAItabOGjY0PMZQ2SVz79P5bg",
-  authDomain: "afosec.firebaseapp.com",
-  projectId: "afosec",
-  storageBucket: "afosec.appspot.com",
-  messagingSenderId: "772925962732",
-  appId: "1:772925962732:web:3efa7a2ef95742f62068c9",
-  measurementId: "G-CT4FDMSMQZ",
+  apiKey: process.env.NEXT_PUBLIC_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_APP_ID,
+  measurementId: process.env.NEXT_PUBLIC_MEASUREMENT_ID,
 };
 import { SwitchDemo } from "./Accommodation";
 
@@ -52,6 +52,10 @@ const formSchema = z.object({
     .max(13, {
       message: "Enter a valid phone number",
     }),
+  yearOfStudy: z.string(),
+  rollNumber: z.string(),
+  department: z.string(),
+  checked: z.boolean(),
 });
 
 // Initialize Firebase
@@ -73,6 +77,10 @@ export function ProfileForm() {
       college: "",
       email: "",
       phone: "",
+      yearOfStudy: "",
+      rollNumber: "",
+      department: "",
+      checked: false,
     },
   });
 
@@ -82,12 +90,15 @@ export function ProfileForm() {
     // ✅ This will be type-safe and validated.
     console.log(values);
   }
+*/
 
   const [checked, setChecked] = React.useState(false);
-*/
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      const docRef = await addDoc(collection(db, "forms"), values);
+      const formValues = form.getValues();
+
+      console.log(formValues);
+      const docRef = await addDoc(collection(db, "forms"), formValues);
       console.log("Document written with ID: ", docRef.id);
       form.reset(); //form ni idi clear chestadi if no error
     } catch (e) {
@@ -169,9 +180,62 @@ export function ProfileForm() {
               </FormItem>
             )}
           />
-          <Events />
+          <FormField
+            control={form.control}
+            name="yearOfStudy"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className="ml-4 ">Year of Study</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder="  "
+                    className="text-black w-96 rounded-3xl mt-1"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="rollNumber"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className="ml-4 ">Roll Number</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder="  "
+                    className="text-black w-96 rounded-3xl mt-1"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <FormField
+            control={form.control}
+            name="department"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel className="ml-4 ">Department</FormLabel>
+                <FormControl>
+                  <Input
+                    placeholder="  "
+                    className="text-black w-96 rounded-3xl mt-1"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          {/* <Events /> */}
           {/* <Chans /> */}
-          <SwitchDemo />
+          <div>
+            <SwitchDemo check={checked} setChecked={setChecked} />
+          </div>
           <div className="flex items-center">
             <Button
               type="submit"
