@@ -103,7 +103,7 @@ const events: Events = {
       state: false,
     },
   ],
-  MECH: [
+  Mech: [
     {
       name: "EngineX",
       state: false,
@@ -121,7 +121,7 @@ const events: Events = {
       state: false,
     },
   ],
-  CIVIL: [
+  Civil: [
     {
       name: "Bridge It",
       state: false,
