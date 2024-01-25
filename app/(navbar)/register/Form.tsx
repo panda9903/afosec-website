@@ -234,7 +234,7 @@ export function ProfileForm() {
           {/* <Events /> */}
           {/* <Chans /> */}
           <div>
-            <SwitchDemo check={checked} setChecked={setChecked} />
+            <SwitchDemo checked={checked} setChecked={setChecked} />
           </div>
           <div className="flex items-center">
             <Button
