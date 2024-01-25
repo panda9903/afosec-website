@@ -23,26 +23,171 @@ const events: Events = {
   void: [{ name: "Please select department", state: false }],
   CSE: [
     {
-      name: "XOXOXOX",
+      name: "Secure Knight",
       state: false,
     },
     {
-      name: "ABABAB",
+      name: "Shark Tank",
+      state: false,
+    },
+    {
+      name: "Trilang Quest",
+      state: false,
+    },
+    {
+      name: "Rapid ML",
+      state: false,
+    },
+  ],
+  AIDS: [
+    {
+      name: " Green Gyan",
+      state: false,
+    },
+    {
+      name: "Code Wizards",
+      state: false,
+    },
+  ],
+  IT: [
+    {
+      name: "UI Utopia / PixelFiesta",
+      state: false,
+    },
+    {
+      name: "Argumentation",
+      state: false,
+    },
+    {
+      name: "Fast&Furious",
+      state: false,
+    },
+    {
+      name: "Bug Busters",
       state: false,
     },
   ],
   ECE: [
     {
-      name: "Event 1",
+      name: "Technoslide",
       state: false,
     },
     {
-      name: "Event 2",
+      name: "Electronic Circuit Quiz",
+      state: false,
+    },
+    {
+      name: "Electronic Project Exhibition",
+      state: false,
+    },
+    {
+      name: "Techno Debate",
       state: false,
     },
   ],
-  IT: [
-    // ... events for IT
+  EEE: [
+    {
+      name: "Tech Broadcast",
+      state: false,
+    },
+    {
+      name: "Solder Master",
+      state: false,
+    },
+    {
+      name: "D-Tech-Tive",
+      state: false,
+    },
+    {
+      name: "tech Debate",
+      state: false,
+    },
+  ],
+  MECH: [
+    {
+      name: "EngineX",
+      state: false,
+    },
+    {
+      name: "Lathe War",
+      state: false,
+    },
+    {
+      name: "Water Rocket Lavunch",
+      state: false,
+    },
+    {
+      name: "Rube Gold Berg Maachine",
+      state: false,
+    },
+  ],
+  CIVIL: [
+    {
+      name: "Bridge It",
+      state: false,
+    },
+    {
+      name: "Seismic Table",
+      state: false,
+    },
+    {
+      name: "Auto Cad",
+      state: false,
+    },
+    {
+      name: "E-Poster Presentation",
+      state: false,
+    },
+  ],
+  MBA: [
+    {
+      name: "Brain Blasters",
+      state: false,
+    },
+    {
+      name: "Waall Street Wizards",
+      state: false,
+    },
+    {
+      name: "Market Mavericks",
+      state: false,
+    },
+    {
+      name: "Workforce Hives",
+      state: false,
+    },
+  ],
+  MCA: [
+    {
+      name: "Aakritiparva",
+      state: false,
+    },
+    {
+      name: "Techno Vidya",
+      state: false,
+    },
+    {
+      name: "Avishkar Anveshan",
+      state: false,
+    },
+  ],
+  EIE: [
+    {
+      name: "Kushagra",
+      state: false,
+    },
+    {
+      name: "PCB Design",
+      state: false,
+    },
+    {
+      name: "Techno Cross Word",
+      state: false,
+    },
+    {
+      name: "Tech-Talk",
+      state: false,
+    },
   ],
 };
 
