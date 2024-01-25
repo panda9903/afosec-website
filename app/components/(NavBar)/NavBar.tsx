@@ -7,6 +7,8 @@ import Image from "next/image";
 
 export default function Navbar() {
   const [state, setState] = React.useState(false);
+  const [prevScrollPos, setPrevScrollPos] = React.useState(0);
+  const [visible, setVisible] = React.useState(true);
 
   const menus = [
     { title: "Events", path: "/events" },
@@ -15,8 +17,23 @@ export default function Navbar() {
     { title: "Register", path: "/register" },
   ];
 
+  React.useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const visible = prevScrollPos > currentScrollPos || currentScrollPos < 20;
+      setPrevScrollPos(currentScrollPos);
+      setVisible(visible);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
-    <nav className="w-full md:border-0 px-6 sticky top-0 backdrop-blur-sm z-10">
+    <nav className={`w-full md:border-0 px-6 sticky top-0 backdrop-blur-3xl backdrop-opacity-95 backdrop-filter drop-shadow z-10 ${visible ? "" : "hidden"}`}>
       <div className="items-center justify-between md:flex">
         <div className="flex items-center justify-between py-3 md:block">
           <Link href="/">
