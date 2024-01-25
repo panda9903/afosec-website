@@ -51,7 +51,7 @@ export default function Navbar() {
                 key={idx}
                 className={`p-[6px] hover:p-[6px] hover:bg-white hover:text-black hover hover:rounded-2xl ${
                   item.title === "Register"
-                    ? " p-[6px] bg-[#EA8814] text-white rounded-md text-center"
+                    ? " p-[6px] bg-[#EA8814] text-white rounded-2xl text-center"
                     : ""
                 }`}
               >

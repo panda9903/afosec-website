@@ -39,8 +39,8 @@ const firebaseConfig = {
 import { SwitchDemo } from "./Accommodation";
 
 const formSchema = z.object({
-  username: z.string(),
-  college: z.string(),
+  username: z.string().min(1),
+  college: z.string().min(1),
   email: z.string().email({
     message: "Enter valid email address",
   }),
@@ -52,9 +52,9 @@ const formSchema = z.object({
     .max(13, {
       message: "Enter a valid phone number",
     }),
-  yearOfStudy: z.string(),
-  rollNumber: z.string(),
-  department: z.string(),
+  yearOfStudy: z.string().min(1),
+  rollNumber: z.string().min(1),
+  department: z.string().min(1),
   checked: z.boolean(),
 });
 
@@ -96,11 +96,12 @@ export function ProfileForm() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
       const formValues = form.getValues();
+      form.setValue("checked", checked);
 
       console.log(formValues);
       const docRef = await addDoc(collection(db, "forms"), formValues);
       console.log("Document written with ID: ", docRef.id);
-      form.reset(); //form ni idi clear chestadi if no error
+      form.reset();
     } catch (e) {
       console.error("Error adding document: ", e);
     }

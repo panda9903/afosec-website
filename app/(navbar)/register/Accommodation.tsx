@@ -20,7 +20,7 @@ export function SwitchDemo({
         }`}
         onClick={() => {
           setIsChecked(!isChecked);
-          setChecked(isChecked);
+          setChecked(!checked);
         }}
       />
       <Label htmlFor="airplane-mode">Do you need accommodation?</Label>
