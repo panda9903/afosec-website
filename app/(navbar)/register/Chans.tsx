@@ -1,35 +1,30 @@
 import * as React from 'react';
-import {
-    DropdownMenu,
-    DropdownMenuRadioGroup,
-    DropdownMenuRadioItem,
-    DropdownMenuCheckboxItem,
-    DropdownMenuTrigger,
-    DropdownMenuContent,
-} from '@radix-ui/react-dropdown-menu';
-import './Chans.css'; // Import the CSS file
 
 const departments = ['Department 1', 'Department 2', 'Department 3'];
-const departmentEvents = {
+
+type DepartmentEvents = {
+    'Department 1': { type1: string[]; type2: string[] };
+    'Department 2': { type1: string[]; type2: string[] };
+    'Department 3': { type1: string[]; type2: string[] };
+};
+
+const departmentEvents: DepartmentEvents = {
     'Department 1': { type1: ['Event 1', 'Event 2', 'Event 3', 'Event 4'], type2: ['Event 5', 'Event 6', 'Event 7', 'Event 8'] },
     'Department 2': { type1: ['Event 9', 'Event 10', 'Event 11', 'Event 12'], type2: ['Event 13', 'Event 14', 'Event 15', 'Event 16'] },
     'Department 3': { type1: ['Event 17', 'Event 18', 'Event 19', 'Event 20'], type2: ['Event 21', 'Event 22', 'Event 23', 'Event 24'] },
 };
 
 export function Chans() {
-    const [selectedDepartment, setSelectedDepartment] = React.useState('');
+    const [selectedDepartment, setSelectedDepartment] = React.useState<keyof DepartmentEvents | ''>('');
     const [selectedType1Events, setSelectedType1Events] = React.useState<string[]>([]);
     const [selectedType2Events, setSelectedType2Events] = React.useState<string[]>([]);
 
-    const handleEventChange = (setSelectedEvents: React.Dispatch<React.SetStateAction<string[]>>) => (
-        event: string,
-        checked: boolean
-    ) => {
+    const handleEventChange = (setSelectedEvents: React.Dispatch<React.SetStateAction<string[]>>, event: string) => {
         setSelectedEvents(prevEvents => {
-            if (checked && prevEvents.length < 2) {
-                return [...prevEvents, event];
-            } else if (!checked) {
+            if (prevEvents.includes(event)) {
                 return prevEvents.filter(e => e !== event);
+            } else if (prevEvents.length < 2) {
+                return [...prevEvents, event];
             } else {
                 return prevEvents;
             }
@@ -39,55 +34,34 @@ export function Chans() {
     const events = selectedDepartment ? departmentEvents[selectedDepartment] : { type1: [], type2: [] };
 
     return (
-        <>
-            <DropdownMenu>
-                <DropdownMenuTrigger style={{ backgroundColor: 'lightgray', borderRadius: '8px', color: 'black', fontWeight: 'bold', fontFamily: 'Arial', width: '200px' }}>{selectedDepartment || 'Select Department'}</DropdownMenuTrigger>
-                <DropdownMenuContent style={{ backgroundColor: 'lightgray', borderRadius: '8px', color: 'black' }}>
-                    <DropdownMenuRadioGroup value={selectedDepartment} onValueChange={setSelectedDepartment}>
-                        {departments.map(department => (
-                            <DropdownMenuRadioItem key={department} value={department}>
-                                {department}
-                            </DropdownMenuRadioItem>
-                        ))}
-                    </DropdownMenuRadioGroup>
-                </DropdownMenuContent>
-            </DropdownMenu>
+        <div>
+            <h2>Select Department</h2>
+            {departments.map(department => (
+                <div key={department}>
+                    <input type="radio" id={department} name="department" value={department} onChange={() => setSelectedDepartment(department as keyof DepartmentEvents)} />
+                    <label htmlFor={department}>{department}</label>
+                </div>
+            ))}
 
             {selectedDepartment && (
                 <>
-                    <DropdownMenu style={{ marginLeft: '20px' }} closeOnSelect={false}>
-                        <DropdownMenuTrigger style={{ backgroundColor: 'lightgray', borderRadius: '8px', color: 'black', fontWeight: 'bold', fontFamily: 'Arial'  }}>Select Type 1 Events</DropdownMenuTrigger>
-                        <DropdownMenuContent style={{ backgroundColor: 'lightgray', borderRadius: '8px', color: 'black' }}>
-                            {events.type1.map(event => (
-                                <DropdownMenuCheckboxItem
-                                    key={event}
-                                    checked={selectedType1Events.includes(event)}
-                                    onCheckedChange={handleEventChange(setSelectedType1Events)}
-                                    style={{ backgroundColor: selectedType1Events.includes(event) ? 'white' : 'transparent', color: selectedType1Events.includes(event) ? 'white' : 'black', fontWeight: 'bold', fontFamily: 'Arial' }}
-                                >
-                                    {event}
-                                </DropdownMenuCheckboxItem>
-                            ))}
-                        </DropdownMenuContent>
-                    </DropdownMenu>
+                    <h2>Select Type 1 Events</h2>
+                    {events.type1.map(event => (
+                        <div key={event}>
+                            <input type="checkbox" id={event} name="type1Event" value={event} checked={selectedType1Events.includes(event)} onChange={() => handleEventChange(setSelectedType1Events, event)} />
+                            <label htmlFor={event}>{event}</label>
+                        </div>
+                    ))}
 
-                    <DropdownMenu style={{ marginLeft: '20px' }} closeOnSelect={false}>
-                        <DropdownMenuTrigger style={{ backgroundColor: 'lightgray', borderRadius: '8px', color: 'black', fontWeight: 'bold', fontFamily: 'Arial' }}>Select Type 2 Events</DropdownMenuTrigger>
-                        <DropdownMenuContent style={{ backgroundColor: 'lightgray', borderRadius: '8px', color: 'black' }}>
-                            {events.type2.map(event => (
-                                <DropdownMenuCheckboxItem
-                                    key={event}
-                                    checked={selectedType2Events.includes(event)}
-                                    onCheckedChange={handleEventChange(setSelectedType2Events)}
-                                    style={{ backgroundColor: selectedType2Events.includes(event) ? 'green' : 'transparent', color: selectedType2Events.includes(event) ? 'white' : 'black', fontWeight: 'bold', fontFamily: 'Arial' }}
-                                >
-                                    {event}
-                                </DropdownMenuCheckboxItem>
-                            ))}
-                        </DropdownMenuContent>
-                    </DropdownMenu>
+                    <h2>Select Type 2 Events</h2>
+                    {events.type2.map(event => (
+                        <div key={event}>
+                            <input type="checkbox" id={event} name="type2Event" value={event} checked={selectedType2Events.includes(event)} onChange={() => handleEventChange(setSelectedType2Events, event)} />
+                            <label htmlFor={event}>{event}</label>
+                        </div>
+                    ))}
                 </>
             )}
-        </>
+        </div>
     );
 }
