@@ -15,147 +15,74 @@ import {
 
 type Checked = DropdownMenuCheckboxItemProps["checked"];
 
-const events = {
+interface Events {
+  [key: string]: { name: string; state: boolean }[];
+}
+
+const events: Events = {
+  void: [{ name: "Please select department", state: false }],
   CSE: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
+    {
+      name: "XOXOXOX",
+      state: false,
+    },
+    {
+      name: "ABABAB",
+      state: false,
+    },
   ],
   ECE: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
+    {
+      name: "Event 1",
+      state: false,
+    },
+    {
+      name: "Event 2",
+      state: false,
+    },
   ],
   IT: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
-  ],
-  EEE: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
-  ],
-  Civil: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
-  ],
-  Mech: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
-  ],
-  EIE: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
-  ],
-  MBA: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
-  ],
-  MCA: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
-  ],
-  AIDS: [
-    "Event 1",
-    "Event 2",
-    "Event 3",
-    "Event 4",
-    "Event 5",
-    "Event 6",
-    "Event 7",
-    "Event 8",
+    // ... events for IT
   ],
 };
 
 export function DropdownMenuCheckboxes({
-  deparment: department,
+  department: department,
 }: {
-  deparment: string;
+  department: string;
 }) {
-  const [showStatusBar, setShowStatusBar] = React.useState<Checked>(false);
-  const [showActivityBar, setShowActivityBar] = React.useState<Checked>(false);
-  const [showPanel, setShowPanel] = React.useState<Checked>(false);
+  const [selectedEvents, setSelectedEvents] = React.useState<string[]>([]);
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild className=" cursor-pointer">
+      <DropdownMenuTrigger asChild className="cursor-pointer">
         <Button variant="outline" className="text-black w-48">
           Events
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-48">
-        <DropdownMenuCheckboxItem
-          checked={showStatusBar}
-          onCheckedChange={setShowStatusBar}
-          className={`${showStatusBar ? " bg-green-400 rounded-sm" : ""}`}
-        >
-          Status Bar
-        </DropdownMenuCheckboxItem>
-        <DropdownMenuCheckboxItem
-          checked={showActivityBar}
-          onCheckedChange={setShowActivityBar}
-          className={`${showActivityBar ? " bg-green-400 rounded-sm" : ""}`}
-        >
-          Activity Bar
-        </DropdownMenuCheckboxItem>
-        <DropdownMenuCheckboxItem
-          checked={showPanel}
-          onCheckedChange={setShowPanel}
-          className={`${showPanel ? " bg-green-400 rounded-sm" : ""}`}
-        >
-          Panel
-        </DropdownMenuCheckboxItem>
+        {department != "" &&
+          events[department].map((event) => (
+            <DropdownMenuCheckboxItem
+              key={event.name}
+              checked={selectedEvents.includes(event.name)}
+              onCheckedChange={() => {
+                const isChecked = selectedEvents.includes(event.name);
+                setSelectedEvents((prevSelectedEvents) =>
+                  isChecked
+                    ? prevSelectedEvents.filter((e) => e !== event.name)
+                    : [...prevSelectedEvents, event.name]
+                );
+              }}
+              className={`${
+                selectedEvents.includes(event.name)
+                  ? "bg-green-400 rounded-sm"
+                  : ""
+              }`}
+            >
+              {event.name}
+            </DropdownMenuCheckboxItem>
+          ))}
       </DropdownMenuContent>
     </DropdownMenu>
   );

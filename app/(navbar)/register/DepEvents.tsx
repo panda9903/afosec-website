@@ -14,7 +14,7 @@ const Events = () => {
       </p>
       <div className="flex justify-around">
         <DropdownMenuRadioGroupDemo setDepartment={setDepartment} />
-        <DropdownMenuCheckboxes deparment={deparment} />
+        <DropdownMenuCheckboxes department={deparment} />
       </div>
     </div>
   );

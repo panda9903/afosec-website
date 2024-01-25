@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 
-import { Chans } from './Chans'; // replace './Chans' with the actual path to your Chans.tsx file
+import { Chans } from "./Chans"; // replace './Chans' with the actual path to your Chans.tsx file
 //firebase testing shimt here
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
@@ -170,7 +170,7 @@ export function ProfileForm() {
             )}
           />
           <Events />
-          <Chans />
+          {/* <Chans /> */}
           <SwitchDemo />
           <div className="flex items-center">
             <Button
