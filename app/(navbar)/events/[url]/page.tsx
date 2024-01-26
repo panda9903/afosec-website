@@ -1,6 +1,6 @@
 import events from "../events";
 
-export async function generateStaticParams() {
+/*export async function generateStaticParams() {
   const eventList = Object.entries(events);
 
   const paths = [];
@@ -42,11 +42,11 @@ export async function getStaticPaths() {
   //console.log(paths[paths.length - 1]);
   //console.log(paths);
   return { paths, fallback: false };
-}
+}*/
 
 const getData = (name: string) => {
   name = name.replace("%20", " ");
-  console.log(name);
+  //console.log(name);
 
   const eventList = Object.entries(events);
   for (let [department, events] of eventList) {
@@ -59,9 +59,9 @@ const getData = (name: string) => {
 };
 
 export default function Event({ params }: { params: { url: string } }) {
-  console.log(params);
+  //console.log(params);
   const event = getData(params.url);
-  console.log(event);
+  //console.log(event);
 
   if (event)
     return (
