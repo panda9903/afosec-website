@@ -17,7 +17,7 @@ export default function Navbar() {
     { title: "Register", path: "/register" },
   ];
 
-  React.useEffect(() => {
+  /* React.useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
       const visible = prevScrollPos > currentScrollPos || currentScrollPos < 20;
@@ -30,10 +30,14 @@ export default function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [prevScrollPos]);
+  }, [prevScrollPos]); */
 
   return (
-    <nav className={`w-full md:border-0 px-6 sticky top-0 backdrop-blur-3xl backdrop-opacity-95 backdrop-filter drop-shadow z-10 ${visible ? "" : "hidden"}`}>
+    <nav
+      className={`w-full md:border-0 px-6 sticky top-0 backdrop-blur-3xl backdrop-opacity-95 backdrop-filter drop-shadow z-10 ${
+        visible ? "" : "hidden"
+      }`}
+    >
       <div className="items-center justify-between md:flex">
         <div className="flex items-center justify-between py-3 md:block">
           <Link href="/">
@@ -66,9 +70,9 @@ export default function Navbar() {
             {menus.map((item, idx) => (
               <li
                 key={idx}
-                className={`p-[6px] hover:p-[6px] hover:bg-white hover:text-black hover hover:rounded-2xl ${
+                className={`p-[10px] hover:bg-white hover:text-black hover hover:rounded-2xl ${
                   item.title === "Register"
-                    ? " p-[6px] bg-[#EA8814] text-white rounded-2xl text-center"
+                    ? " p-[10px] bg-[#EA8814] text-white rounded-2xl text-center"
                     : ""
                 }`}
               >
