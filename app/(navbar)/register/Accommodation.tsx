@@ -10,7 +10,7 @@ export function SwitchDemo({
   setChecked: React.Dispatch<React.SetStateAction<boolean>>;
 }) {
   useEffect(() => {
-    console.log("checked", checked);
+    //console.log("checked", checked);
   }, [checked]);
 
   return (

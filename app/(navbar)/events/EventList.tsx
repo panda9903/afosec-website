@@ -17,14 +17,14 @@ const EventsList = () => {
       {events.map(([department, events]) => {
         return (
           <div className="mb-8" key={department}>
-            <p className="text-2xl mb-4">{department}</p>
-            {events.map(({ name }) => {
+            <p className="text-2xl mb-4 text-[#EA8814]">{department}</p>
+            {events.map(({ id, name, description, url }) => {
               return (
                 <p
                   key={name}
                   className="text-[1.15rem] mb-2 cursor-pointer hover:underline"
                   onClick={() => {
-                    handleClick(name);
+                    handleClick(url);
                   }}
                 >
                   {name}
