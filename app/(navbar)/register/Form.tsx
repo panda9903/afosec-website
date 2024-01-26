@@ -16,7 +16,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-
+import { toast } from "sonner";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
@@ -34,8 +34,12 @@ const firebaseConfig = {
 import { SwitchDemo } from "./Accommodation";
 
 const formSchema = z.object({
-  username: z.string().min(1),
-  college: z.string().min(1),
+  username: z.string().min(1, {
+    message: "Enter your full name",
+  }),
+  college: z.string().min(1, {
+    message: "Enter your college name",
+  }),
   email: z.string().email({
     message: "Enter valid email address",
   }),
@@ -79,16 +83,26 @@ export function ProfileForm() {
   const [checked, setChecked] = React.useState(false);
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      console.log(values);
+      //console.log(values);
       const docRef = await addDoc(collection(db, "forms"), {
         ...values,
         checked: checked,
       });
-      console.log("Document written with ID: ", docRef.id);
+      //console.log("Document written with ID: ", docRef.id);
       form.reset();
       setChecked(false); // Reset the checked state as well
+      toast.success("Successfully Registered!", {
+        duration: 2500,
+        position: "bottom-right",
+        description: "Let us meet on Feb 28!",
+      });
     } catch (e) {
       console.error("Error adding document: ", e);
+      toast.error("Error adding document!", {
+        duration: 2500,
+        position: "bottom-right",
+        description: "Please try again",
+      });
     }
   }
   return (
@@ -106,7 +120,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">Name</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder=" "
+                    placeholder="John Doe"
                     className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
@@ -123,7 +137,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">College</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder=" "
+                    placeholder="Indian Institute of Technology, Bombay"
                     className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
@@ -140,7 +154,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">Phone</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder=" "
+                    placeholder="+911234567890"
                     className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
@@ -157,7 +171,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">College Email</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="  "
+                    placeholder="roll@org.ac.in"
                     className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
@@ -174,7 +188,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">Year of Study</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="  "
+                    placeholder="1"
                     className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
@@ -191,7 +205,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">Roll Number</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="  "
+                    placeholder="218W1A05B5"
                     className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />
@@ -208,7 +222,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">Department</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="  "
+                    placeholder="Computer Science and Engineering"
                     className="text-black w-96 rounded-3xl mt-1"
                     {...field}
                   />

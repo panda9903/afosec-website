@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full md:border-0 px-6 sticky top-0 backdrop-blur-3xl backdrop-opacity-95 backdrop-filter drop-shadow z-10 ${
+      className={`w-full md:border-0 px-6 sticky top-0 backdrop-blur-3xl backdrop-opacity-100 backdrop-filter drop-shadow z-10 ${
         visible ? "" : "hidden"
       }`}
     >
@@ -70,9 +70,9 @@ export default function Navbar() {
             {menus.map((item, idx) => (
               <li
                 key={idx}
-                className={`p-[10px] hover:bg-white hover:text-black hover hover:rounded-2xl ${
+                className={`p-[6px] hover:bg-white hover:text-black hover hover:rounded-2xl ${
                   item.title === "Register"
-                    ? " p-[10px] bg-[#EA8814] text-white rounded-2xl text-center"
+                    ? " p-[6px] bg-[#EA8814] text-white rounded-2xl text-center"
                     : ""
                 }`}
               >
