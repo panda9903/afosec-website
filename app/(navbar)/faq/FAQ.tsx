@@ -31,7 +31,7 @@ const faqs = [
 const FAQ = () => {
   return (
     <div className="flex flex-col items-center">
-      <Accordion type="single" collapsible className="w-6/12">
+      <Accordion type="single" collapsible className="w-9/12">
         {faqs.map((faq) => (
           <AccordionItem key={faq.key} value={faq.key}>
             <AccordionTrigger>{faq.question}</AccordionTrigger>
