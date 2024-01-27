@@ -106,11 +106,11 @@ export function ProfileForm() {
     }
   }
   return (
-    <div className="p-8 bg-[#262626] rounded-lg mb-8">
+    <div className=" bg-[#262626] rounded-lg mb-8 md:p-8 p-4 w-full md:w-[28rem]">
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-8 text-white"
+          className="space-y-8 text-white w-full"
         >
           <FormField
             control={form.control}
@@ -121,7 +121,7 @@ export function ProfileForm() {
                 <FormControl>
                   <Input
                     placeholder="John Doe"
-                    className="text-black w-96 rounded-3xl mt-1"
+                    className="text-black rounded-3xl mt-1 w-full md:w-96"
                     {...field}
                   />
                 </FormControl>
@@ -138,7 +138,7 @@ export function ProfileForm() {
                 <FormControl>
                   <Input
                     placeholder="Indian Institute of Technology, Bombay"
-                    className="text-black w-96 rounded-3xl mt-1"
+                    className="text-black rounded-3xl mt-1 w-full md:w-96"
                     {...field}
                   />
                 </FormControl>
@@ -155,7 +155,7 @@ export function ProfileForm() {
                 <FormControl>
                   <Input
                     placeholder="+911234567890"
-                    className="text-black w-96 rounded-3xl mt-1"
+                    className="text-black w-full md:w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
@@ -172,7 +172,7 @@ export function ProfileForm() {
                 <FormControl>
                   <Input
                     placeholder="roll@org.ac.in"
-                    className="text-black w-96 rounded-3xl mt-1"
+                    className="text-black w-full md:w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
@@ -189,7 +189,7 @@ export function ProfileForm() {
                 <FormControl>
                   <Input
                     placeholder="1"
-                    className="text-black w-96 rounded-3xl mt-1"
+                    className="text-black w-full md:w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
@@ -206,7 +206,7 @@ export function ProfileForm() {
                 <FormControl>
                   <Input
                     placeholder="218W1A05B5"
-                    className="text-black w-96 rounded-3xl mt-1"
+                    className="text-black w-full md:w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
@@ -223,7 +223,7 @@ export function ProfileForm() {
                 <FormControl>
                   <Input
                     placeholder="Computer Science and Engineering"
-                    className="text-black w-96 rounded-3xl mt-1"
+                    className="text-black w-full md:w-96 rounded-3xl mt-1"
                     {...field}
                   />
                 </FormControl>
