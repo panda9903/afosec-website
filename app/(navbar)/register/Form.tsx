@@ -4,7 +4,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 import Events from "./DepEvents";
-import React from "react";
+import React, { use } from "react";
+import JSConfetti from "js-confetti";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -20,6 +21,7 @@ import { toast } from "sonner";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
+import { useRouter } from "next/navigation";
 
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
@@ -66,6 +68,8 @@ if (typeof window !== "undefined") {
   const db = getFirestore(app);
 }
 export function ProfileForm() {
+  const router = useRouter();
+
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -84,18 +88,21 @@ export function ProfileForm() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
       //console.log(values);
+      const jsConfetti = new JSConfetti();
+      jsConfetti.addConfetti();
+      toast.success("Successfully Registered!", {
+        duration: 6000,
+        position: "bottom-center",
+        description: "Let us meet on Feb 28!",
+      });
+      router.push("/");
       const docRef = await addDoc(collection(db, "forms"), {
         ...values,
         checked: checked,
       });
-      //console.log("Document written with ID: ", docRef.id);
+      console.log("Document written with ID: ", docRef.id);
       form.reset();
       setChecked(false); // Reset the checked state as well
-      toast.success("Successfully Registered!", {
-        duration: 2500,
-        position: "bottom-right",
-        description: "Let us meet on Feb 28!",
-      });
     } catch (e) {
       console.error("Error adding document: ", e);
       toast.error("Error adding document!", {
