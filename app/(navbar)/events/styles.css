@@ -7,6 +7,10 @@
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
+div {
+  border-radius: 0.8rem;
+}
+
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
