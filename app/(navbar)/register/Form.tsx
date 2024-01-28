@@ -46,7 +46,7 @@ const formSchema = z.object({
     message: "Enter valid email address",
   }),
   phone: z
-    .string()
+    .number()
     .min(10, {
       message: "Enter a valid phone number",
     })
@@ -76,7 +76,7 @@ export function ProfileForm() {
       username: "",
       college: "",
       email: "",
-      phone: "",
+      phone: 0,
       yearOfStudy: "",
       rollNumber: "",
       department: "",
@@ -161,7 +161,7 @@ export function ProfileForm() {
                 <FormLabel className="ml-4 ">Phone</FormLabel>
                 <FormControl>
                   <Input
-                    placeholder="+911234567890"
+                    placeholder="9876543210"
                     className="text-black w-full md:w-96 rounded-3xl mt-1"
                     {...field}
                   />
