@@ -34,7 +34,6 @@ const firebaseConfig = {
   measurementId: "G-CT4FDMSMQZ"
 };
 
-
 import { SwitchDemo } from "./Accommodation";
 
 const formSchema = z.object({
