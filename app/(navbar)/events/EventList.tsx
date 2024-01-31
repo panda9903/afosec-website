@@ -23,13 +23,15 @@ const EventsList = () => {
           <div className="mb-8" key={department}>
             <p className="text-2xl mb-4 text-[#EA8814]">{department}</p>
             <div className="flex flex-col md:flex-row gap-4">
-              {events.map(({ id, name, description, url, imageUrl }) => { // Assuming each event has an imageUrl property
+              {events.map(({ id, name, description, url, imageUrl }) => {
                 return (
                   <div key={name}>
                     <div className="flip-card" key={name}>
                       <div className="flip-card-inner">
                         <div className="flip-card-front flex items-center justify-center text-2xl">
-                          <Image src={`/${imageUrl}`} alt={name} layout="fill" objectFit="cover" />{/* Add this line */}
+                          <div style={{ position: 'relative', width: 'auto', height: 'auto' }}>
+                            <Image src={imageUrl} alt={name} layout="fill" objectFit="cover" placeholder="blur" blurDataURL=" /images/loading.gif"/> {/* // use these to set fised width fo rhte pic da width={500} height={300} */}
+                          </div>
                           <p>{name}</p>
                         </div>
                         <div className="flip-card-back flex flex-col items-center justify-center">
@@ -41,7 +43,7 @@ const EventsList = () => {
                               handleClick(url);
                             }}
                           >
-                            Know More
+                            Register
                           </Button>
                         </div>
                       </div>
