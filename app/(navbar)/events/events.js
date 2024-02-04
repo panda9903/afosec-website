@@ -193,7 +193,7 @@ const events = {
     },
     {
       id: "4",
-      name: "tech Debate",
+      name: "Tech Debate",
       url: "tech-debate",
       description:
         " “Tech Debate: 3 intense rounds for tech enthusiasts! Screen, team debate, and final debate on spot technical topics.",
