@@ -23,19 +23,28 @@ const EventsList = () => {
               {department}
             </p>
             <div className="flex md:flex-row gap-4 flex-col flex-wrap justify-center items-center md:justify-start">
-              {events.map(({ id, name, description, url }) => {
+              {events.map(({ id, name, description, url, deg, from, to }) => {
                 return (
                   <div key={name}>
                     <div className="flip-card" key={name}>
-                      <div className="flip-card-inner">
+                      <div
+                        className="flip-card-inner"
+                        style={{
+                          backgroundImage: `linear-gradient(${deg}deg, ${from}, ${to})`,
+                        }}
+                      >
                         <div className="flip-card-front flex items-center justify-center text-2xl">
                           <p>{name}</p>
                         </div>
-                        <div className="flip-card-back flex flex-col items-center justify-center">
-                          <h1>{name}</h1>
+                        <div
+                          className="flip-card-back flex flex-col items-center justify-center px-4"
+                          style={{
+                            backgroundImage: `linear-gradient(${deg}deg, ${from}, ${to})`,
+                          }}
+                        >
                           <p>{description}</p>
                           <Button
-                            className="bg-[#EA8814]"
+                            className="bg-[#EA8814] mt-4"
                             onClick={() => {
                               handleClick(url);
                             }}

@@ -38,13 +38,11 @@ div {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: gray;
-  color: white;
+  color: black;
   transform: rotateY(180deg);
 }
