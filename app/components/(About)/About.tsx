@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="flex flex-col md:flex-row items-center justify-center">
-        <h2 className="text-3xl font-bold text-center mt-20 md:mb-10">About</h2>
+        <h2 className="text-3xl font-bold text-center mt-10 md:mb-10">About</h2>
         <Image
           src={image}
           alt="AFOSEC 2024"

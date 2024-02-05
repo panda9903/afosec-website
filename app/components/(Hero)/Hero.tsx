@@ -5,14 +5,19 @@ import DownArrow from "../(Hero Section)/Down Arrow";
 
 const Hero = () => {
   return (
-    <div className=" flex flex-col md:-mt-16 ">
-      <div className=" mb-4">
+    <div className=" flex flex-col md:-mt-16 sticky">
+      <div className="mb-4">
         <video
           autoPlay
           muted
           preload="true"
           loop
-          style={{ width: "100%", height: "100%" }}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            zIndex: -1,
+          }}
         >
           <source src="../../../Teaser.mp4" />
           Your browser does not support HTML5 video.
