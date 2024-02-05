@@ -14,52 +14,52 @@ import {
 const eventDetails = [
   {
     id: 1,
-    title: "Event 1",
-    date: "2021-01-01",
+    title: "Glimpses Of India",
+    date: "India Quiz",
   },
   {
     id: 2,
-    title: "Event 2",
-    date: "2021-01-02",
+    title: "Srujana",
+    date: "Creative Writing",
   },
   {
     id: 3,
-    title: "Event 3",
-    date: "2021-01-03",
+    title: "Gab Fab",
+    date: "Extempore Floor Crossing",
   },
   {
     id: 4,
-    title: "Event 4",
-    date: "2021-01-04",
+    title: "Wrangle",
+    date: "The  Debate",
   },
   {
     id: 5,
-    title: "Event 5",
+    title: "Melody Mosaic",
     date: "2021-01-05",
   },
   {
     id: 6,
-    title: "Event 6",
+    title: "Vocal Vortex",
     date: "2021-01-06",
   },
   {
     id: 7,
-    title: "Event 7",
+    title: "Rhythmic Revelry",
     date: "2021-01-07",
   },
   {
     id: 8,
-    title: "Event 8",
+    title: "Team Tempo",
     date: "2021-01-08",
   },
   {
     id: 9,
-    title: "Event 9",
+    title: "DJ Night",
     date: "2021-01-09",
   },
   {
     id: 10,
-    title: "Event 10",
+    title: "Camp Fire",
     date: "2021-01-10",
   },
 ];
@@ -75,7 +75,7 @@ const EventCarousel = () => {
         className="md:w-full max-w-[16rem] md:max-w-xs"
         plugins={[
           Autoplay({
-            delay: 2500,
+            delay: 2000,
           }),
         ]}
       >
@@ -85,7 +85,7 @@ const EventCarousel = () => {
               <div className="p-1">
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-6 flex-col bg-black text-primary-foreground rounded-[0.5rem]">
-                    <span className="text-4xl font-semibold">
+                    <span className="text-3xl font-semibold">
                       {event.title}
                     </span>
                     <span className="text-md font-medium">{event.date}</span>
