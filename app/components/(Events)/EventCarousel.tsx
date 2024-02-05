@@ -1,7 +1,15 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
+
+import Instagram from "@public/insta.svg";
+import Facebook from "@public/facebook.svg";
+import YouTube from "@public/youtube.svg";
+import Twitter from "@public/twitter.svg";
+import Linkedin from "@public/linkedin.svg";
+
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -16,52 +24,51 @@ const eventDetails = [
     id: 1,
     title: "Glimpses Of India",
     date: "India Quiz",
+    image: Instagram,
   },
   {
     id: 2,
     title: "Srujana",
     date: "Creative Writing",
+    image: Facebook,
   },
   {
     id: 3,
     title: "Gab Fab",
     date: "Extempore Floor Crossing",
+    image: YouTube,
   },
   {
     id: 4,
     title: "Wrangle",
     date: "The  Debate",
+    image: Twitter,
   },
   {
     id: 5,
     title: "Melody Mosaic",
-    date: "2021-01-05",
+    date: "Feb 28",
+    image: Linkedin,
   },
   {
     id: 6,
     title: "Vocal Vortex",
-    date: "2021-01-06",
+    date: "Feb 28",
+    image: Instagram,
   },
   {
     id: 7,
     title: "Rhythmic Revelry",
-    date: "2021-01-07",
+    date: "Feb 28",
+    image: Facebook,
   },
   {
     id: 8,
     title: "Team Tempo",
-    date: "2021-01-08",
+    date: "Feb 28",
+    image: Twitter,
   },
-  {
-    id: 9,
-    title: "DJ Night",
-    date: "2021-01-09",
-  },
-  {
-    id: 10,
-    title: "Camp Fire",
-    date: "2021-01-10",
-  },
+
 ];
 
 const EventCarousel = () => {
@@ -85,6 +92,7 @@ const EventCarousel = () => {
               <div className="p-1">
                 <Card>
                   <CardContent className="flex aspect-square items-center justify-center p-6 flex-col bg-black text-primary-foreground rounded-[0.5rem]">
+                  <Image src={event.image} alt={event.title} width={200} height={200} />
                     <span className="text-3xl font-semibold">
                       {event.title}
                     </span>

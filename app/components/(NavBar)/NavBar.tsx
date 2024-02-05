@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`w-full md:border-0 px-6 sticky top-0 backdrop-blur-3xl backdrop-opacity-100 backdrop-filter drop-shadow z-10 ${
+      className={`w-full md:border-0 px-6 sticky top-0 backdrop-blur-3xl backdrop-opacity-100 backdrop-filter drop-shadow z-50 ${
         visible ? "" : "hidden"
       }`}
     >

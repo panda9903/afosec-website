@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import RegisterButton from "../(Hero Section)/RegisterButton";
-import DownArrow from "../(Hero Section)/Down Arrow";
 
 const Hero = () => {
   return (
-    <div className=" flex flex-col md:-mt-16 sticky">
+    <div className="relative z-10 flex flex-col md:-mt-16 sticky">
       <div className="mb-4">
         <video
           autoPlay
