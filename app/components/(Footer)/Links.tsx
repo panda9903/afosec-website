@@ -5,7 +5,7 @@ import Instagram from "@public/insta.svg";
 import Facebook from "@public/facebook.svg";
 import YouTube from "@public/youtube.svg";
 import Twitter from "@public/twitter.svg";
-import Linkedin from "@public/Vector.svg";
+import Linkedin from "@public/linkedin.svg";
 
 const Links = () => {
   return (
