@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Instagram from "@public/Group.svg";
-import Facebook from "@public/Group (1).svg";
+import Instagram from "@public/insta.svg";
+import Facebook from "@public/facebook.svg";
 import YouTube from "@public/youtube.svg";
-import Twitter from "@public/Group (2).svg";
+import Twitter from "@public/twitter.svg";
 import Linkedin from "@public/Vector.svg";
 
 const Links = () => {
