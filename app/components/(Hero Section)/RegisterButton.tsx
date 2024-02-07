@@ -18,4 +18,5 @@ export function RegisterButton() {
     </div>
   );
 }
+
 export default RegisterButton;
