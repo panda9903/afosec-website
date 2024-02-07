@@ -14,7 +14,7 @@ export default function Navbar() {
     { title: "Events", path: "/events" },
     { title: " FAQ ", path: "/faq" },
     { title: "Contact Us", path: "/contact" },
-    { title: "Register", path: "/register" },
+    { title: "Register", path: "/ticket.html" },
   ];
 
   /* React.useEffect(() => {
