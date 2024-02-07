@@ -66,6 +66,16 @@ const events = {
       to: " #FBD786",
     },
     {
+      id: "3",
+      name: " Whisper Challenge",
+      url: "whisper-challenge",
+      description: "  Repeat whispered phrases accurately. ",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: " #a8ff78",
+      to: " #FBD786",
+    },
+    {
       id: "4",
       name: " Photo Scavenger",
       url: "photo-scavenger",
@@ -199,12 +209,44 @@ const events = {
       url: "  sing-the-lyric",
       description:
         "  listen to a song lyric and sing the next lyrics.",
-       imageUrl: "/images/loading.gif",
+      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
     },
-    
+    {
+      id: "6",
+      name: "  Fantasy Pop Quiz",
+      url: "  fantasy-pop-quiz",
+      description:
+        "Test your knowledge on series like Harry Potter, Game of Thrones, and music sensations like BTS.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ffffff",
+      to: "#a8ff78",
+    },
+    {
+      id: "7",
+      name: "  Stick It Right",
+      url: " stick-it-right",
+      description:
+        "  Locate and tag 9 people in the crowd using sticky notes.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ffffff",
+      to: "#a8ff78",
+    },
+    {
+      id: "8",
+      name: " Balloon Pop Challenge",
+      url: " balloon-pop-challenge",
+      description:
+        "  Dive into the fun as participants burst balloons, completing challenges or dares.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ffffff",
+      to: "#a8ff78",
+    },
   ],
   EEE: [
     {
@@ -245,6 +287,17 @@ const events = {
       url: "tech-debate",
       description:
         " “Tech Debate: 3 intense rounds for tech enthusiasts! Screen, team debate, and final debate on spot technical topics.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#FFEE00",
+      to: "rgba(254, 253, 205, 1)",
+    },
+    {
+      id: "4",
+      name: "Technical Quiz",
+      url: " technical-quiz",
+      description:
+        "  Battle through 3 rounds of tech brilliance! Screening, rapid-fire, and buzzer rounds challenge .",
       imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#FFEE00",
