@@ -11,12 +11,11 @@ export function RegisterButton() {
         asChild
         className="px-8 bg-[#EA8814] text-white relative md:bottom-24"
       >
-        <Link href="/register">
+        <Link href="/ticket.html">
           <span className="text-lg">Register</span>
         </Link>
       </Button>
     </div>
   );
 }
-
 export default RegisterButton;

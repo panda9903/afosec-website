@@ -23,15 +23,6 @@ const Hero = () => {
         </video>
       </div>
 
-      {/* <div className="text-center mx-10 md:mx-48 my-10">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsam
-        commodi distinctio aliquid quae consectetur maxime eveniet nesciunt
-        magnam non debitis, vero dolore quia doloremque doloribus, harum facere
-        iste deserunt accusamus eligendi aliquam ut voluptas quidem ad.vero
-        dolore quia doloremque doloribus, harum facere iste deserunt accusamus
-        eligendi aliquam ut voluptas quidem ad.
-      </div> */}
-
       <RegisterButton />
 
       {/*  <DownArrow /> */}
