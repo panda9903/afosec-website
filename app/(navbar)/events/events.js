@@ -65,7 +65,19 @@ const events = {
       from: " #a8ff78",
       to: " #FBD786",
     },
+    {
+      id: "4",
+      name: " Photo Scavenger",
+      url: "photo-scavenger",
+      description: "  capture themed images, racing to bring the best shots first in this visual adventure.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: " #a8ff78",
+      to: " #FBD786",
+    },
+    
   ],
+  
   IT: [
     {
       id: "1",
@@ -111,6 +123,30 @@ const events = {
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
     },
+    {
+      id: "5",
+      name: "Byte Quiz",
+      url: "byte-quiz",
+      description:
+        "  An intellectually stimulating technical quiz challenging participants’ knowledge and problem-solving skills.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "rgba(254, 253, 205, 1) 11.2%",
+      to: "rgba(163, 230, 255, 1) 91%",
+    },
+    {
+      id: "6",
+      name: "Tech Jam",
+      url: "tech-jam",
+      description:
+        "  Articulate your thoughts on a revealed term or component in a concise time. ",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "rgba(254, 253, 205, 1) 11.2%",
+      to: "rgba(163, 230, 255, 1) 91%",
+    },
+    
+    
   ],
   ECE: [
     {
@@ -157,6 +193,18 @@ const events = {
       from: "#ffffff",
       to: "#a8ff78",
     },
+    {
+      id: "5",
+      name: "  Sing the Lyric",
+      url: "  sing-the-lyric",
+      description:
+        "  listen to a song lyric and sing the next lyrics.",
+       imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ffffff",
+      to: "#a8ff78",
+    },
+    
   ],
   EEE: [
     {
