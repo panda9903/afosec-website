@@ -11,7 +11,8 @@ export default function Navbar() {
   const [visible, setVisible] = React.useState(true);
 
   const menus = [
-    { title: "Events", path: "/events" },
+    { title: "Department Events", path: "/events" },
+    { title: "Central Events", path: "/" },
     { title: " FAQ ", path: "/faq" },
     { title: "Contact Us", path: "/contact" },
     { title: "Register", path: "/ticket.html" },

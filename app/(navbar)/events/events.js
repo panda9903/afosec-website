@@ -85,9 +85,7 @@ const events = {
       from: " #a8ff78",
       to: " #FBD786",
     },
-    
   ],
-  
   IT: [
     {
       id: "1",
@@ -155,8 +153,6 @@ const events = {
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
     },
-    
-    
   ],
   ECE: [
     {
