@@ -10,10 +10,10 @@ const Contact = () => {
     <Image src={Logo} height={100} width={100} alt="Logo" />
   </div>
     <p>
-      Address: Velagapudi Ramakrishna Siddhartha Engineering College,
+      Velagapudi Ramakrishna Siddhartha Engineering College,
       Chalasani Nagar, Kanuru, Vijayawada, Andhra Pradesh 520007.
     </p>
-    <p>Email: afosec@vrsiddhartha.ac.in </p>
+    <p>Email: afosec.cse@vrsiddhartha.ac.in </p>
   </div>
 
   );

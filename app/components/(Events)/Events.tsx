@@ -20,7 +20,7 @@ const Events = () => {
         </div>
 
         <div className="z-10 w-full md:w-auto">
-          <Image src={Ideation} alt="Ideation" width={200} height={200} />
+          <h3 className="text-2xl font-bold text-center mb-5">Ideation</h3>
           <IdeationCarousel/>
         </div>
         <div className="z-10 w-full md:w-auto mt-10 md:mt-0">
