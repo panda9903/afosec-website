@@ -28,7 +28,7 @@ const eventDetails = [
   },
   {
     id: 2,
-    title: "Thriving & Sustainable Economy",
+    title: "Sustainable Economy",
     date: "Feb 28",
     image: Thriving,
   },
@@ -59,7 +59,7 @@ const IdeationCarousel = () => {
           align: "start",
           loop: true,
         }}
-        className="max-w-[25rem] md:max-w-[25rem] "
+        className="max-w-[21rem] md:max-w-[25rem] h-[25rem]"
         plugins={[
           Autoplay({
             delay: 2000,
@@ -69,9 +69,9 @@ const IdeationCarousel = () => {
         <CarouselContent className="bg-black">
           {Array.from(eventDetails).map((event) => (
             <CarouselItem key={event.id}>
-              <div className="p-[0.45rem]">
+              <div className="p-[0.40rem] md:p-[0.45rem]">
                 <Card>
-                  <CardContent className="flex aspect-square items-center justify-center flex-col bg-black text-primary-foreground rounded-[0.5rem] w-96">
+                  <CardContent className="flex aspect-square items-center justify-center flex-col bg-black text-primary-foreground rounded-[0.5rem] p-2 h-[20rem] md:w-96">
                     <Image
                       src={event.image}
                       alt={event.title}

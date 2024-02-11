@@ -72,35 +72,37 @@ const eventDetails = [
 
 const EventCarousel = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center ">
       <Carousel
         opts={{
           align: "start",
           loop: true,
         }}
-        className="max-w-[25rem] md:max-w-[25rem] "
+        className="max-w-[21rem] md:max-w-[25rem] h-[25rem]"
         plugins={[
           Autoplay({
             delay: 2000,
           }),
         ]}
       >
-        <CarouselContent>
+        <CarouselContent className="bg-black">
           {Array.from(eventDetails).map((event) => (
             <CarouselItem key={event.id}>
-              <div className="p-[0.45rem]">
+              <div className="p-[0.40rem] md:p-[0.45rem]">
                 <Card>
-                  <CardContent className="flex aspect-square items-center justify-center flex-col bg-black text-primary-foreground rounded-[0.5rem] w-96">
+                  <CardContent className="flex aspect-square items-center justify-center flex-col bg-black text-primary-foreground rounded-[0.5rem] p-2 h-[20rem] md:w-96">
                     <Image
                       src={event.image}
                       alt={event.title}
                       width={200}
                       height={200}
                     />
-                    <span className="text-3xl font-semibold mt-6">
+                    <span className="text-3xl font-semibold text-center mt-6">
                       {event.title}
                     </span>
-                    <span className="text-md font-medium">{event.date}</span>
+                    <span className="text-md font-medium text-center">
+                      {event.date}
+                    </span>
                   </CardContent>
                 </Card>
               </div>
