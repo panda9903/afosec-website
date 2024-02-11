@@ -9,7 +9,7 @@ export function RegisterButton() {
     <div className="mx-auto">
       <Button
         asChild
-        className="px-8 bg-[#EA8814] text-white relative md:bottom-24"
+        className="px-8 bg-[#EA8814] text-white relative bottom-24"
       >
         <Link href="/ticket.html">
           <span className="text-lg">Register</span>

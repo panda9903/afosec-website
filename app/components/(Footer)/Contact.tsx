@@ -10,7 +10,7 @@ const Contact = () => {
         <p className="text-xl">Contact Us</p>
         <Image src={Logo} height={100} width={100} alt="Logo" />
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center -mt-4">
         <LocateComponent />
       </div>
       {/* <p className="text-center md:text-left">

@@ -13,7 +13,12 @@ const Socials = () => {
       <p className="text-xl">Connect With Us</p>
       <Image src={Logo} height={100} width={100} alt="Logo" />
       <Links />
-      <p className="text-white text-lg">Email: afosec.cse@vrsiddhartha.ac.in</p>
+      <a
+        className="text-white text-lg cursor-pointer"
+        href="mailto:afosec@vrsiddhartha.ac.in"
+      >
+        afosec@vrsiddhartha.ac.in
+      </a>
     </div>
   );
 };
