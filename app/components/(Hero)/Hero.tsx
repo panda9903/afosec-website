@@ -4,11 +4,13 @@ import RegisterButton from "../(Hero Section)/RegisterButton";
 
 const Hero = () => {
   return (
-    <div className="relative z-10 flex flex-col md:-mt-16 sticky">
+    <div className="relative z-10 flex flex-col md:-mt-16">
       <div className="mb-4">
         <video
           autoPlay
+          controls={false}
           muted
+          playsInline
           preload="true"
           loop
           className="w-screen h-screen object-cover"
