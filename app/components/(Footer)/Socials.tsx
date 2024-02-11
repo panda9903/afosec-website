@@ -8,11 +8,12 @@ const Socials = () => {
   return (
     <div
       className="flex flex-col text-xl text-center justify-center items-center mb-16 
-    md:mb-0"
+    md:mb-0 p-8"
     >
-      Connect with us
+      <p className="text-xl">Connect With Us</p>
       <Image src={Logo} height={100} width={100} alt="Logo" />
       <Links />
+      <p className="text-white text-lg">Email: afosec.cse@vrsiddhartha.ac.in</p>
     </div>
   );
 };
