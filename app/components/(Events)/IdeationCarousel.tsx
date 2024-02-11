@@ -50,46 +50,51 @@ const eventDetails = [
     date: "Feb 28",
     image: India,
   },
-
 ];
 const IdeationCarousel = () => {
-    return (
-      <div className="flex justify-center">
-        <Carousel
-          opts={{
-            align: "start",
-            loop: true,
-          }}
-          className="md:w-full max-w-[16rem] md:max-w-xs"
-          plugins={[
-            Autoplay({
-              delay: 2000,
-            }),
-          ]}
-        >
-          <CarouselContent>
-            {Array.from(eventDetails).map((event) => (
-              <CarouselItem key={event.id}>
-                <div className="p-1">
-                  <Card>
-                    <CardContent className="flex aspect-square items-center justify-center p-6 flex-col bg-black text-primary-foreground rounded-[0.5rem]">
-                      <Image src={event.image} alt={event.title} width={200} height={200} />
-                      <span className="text-3xl font-semibold text-center">
-                        {event.title}
-                      </span>
-                      <span className="text-md font-medium text-center">{event.date}</span>
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
-      </div>
-    );
-  };  
-
+  return (
+    <div className="flex justify-center ">
+      <Carousel
+        opts={{
+          align: "start",
+          loop: true,
+        }}
+        className="max-w-[25rem] md:max-w-[25rem] "
+        plugins={[
+          Autoplay({
+            delay: 2000,
+          }),
+        ]}
+      >
+        <CarouselContent className="bg-black">
+          {Array.from(eventDetails).map((event) => (
+            <CarouselItem key={event.id}>
+              <div className="p-[0.45rem]">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center flex-col bg-black text-primary-foreground rounded-[0.5rem] w-96">
+                    <Image
+                      src={event.image}
+                      alt={event.title}
+                      width={200}
+                      height={200}
+                    />
+                    <span className="text-3xl font-semibold text-center mt-6">
+                      {event.title}
+                    </span>
+                    <span className="text-md font-medium text-center">
+                      {event.date}
+                    </span>
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
+    </div>
+  );
+};
 
 export default IdeationCarousel;
