@@ -11,20 +11,31 @@ import {
 const faqs = [
   {
     key: "item-1",
-    question: "Is it accessible?",
-    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+    question: "Accommodation",
+    answer: "Yes, accommodation is available.",
   },
   {
     key: "item-2",
-    question: "Is it styled?",
+    question: "Do I need to pay for Accommodation",
     answer:
-      "Yes. It comes with default styles that matches the other components' aesthetic.",
+      "No, accommodation is free for all participants. However, you need to register for the event.",
   },
   {
     key: "item-3",
-    question: "Is it animated?",
+    question: "When are Technical Events?",
     answer:
-      "Yes. It's animated by default, but you can disable it if you prefer.",
+      "Technical Events are scheduled on  28th Feb, 2024. The detailed schedule will be given on-spot.",
+  },
+  {
+    key: "item-4",
+    question: "When are Non-Technical Events?",
+    answer:
+      "Non-Technical Events are scheduled on  29th Feb, 2024. The detailed schedule will be given on-spot.",
+  },
+  {
+    key: "item-5",
+    question: "Accommodation",
+    answer: "Yes, accommodation is available.",
   },
 ];
 
