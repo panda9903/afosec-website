@@ -11,12 +11,7 @@ const Hero = () => {
           muted
           preload="true"
           loop
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-            zIndex: -1,
-          }}
+          className="w-screen h-screen object-cover"
         >
           <source src="../../../Teaser.mp4" />
           Your browser does not support HTML5 video.

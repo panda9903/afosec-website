@@ -68,7 +68,6 @@ const eventDetails = [
     date: "Feb 28",
     image: Twitter,
   },
-
 ];
 
 const EventCarousel = () => {
@@ -79,7 +78,7 @@ const EventCarousel = () => {
           align: "start",
           loop: true,
         }}
-        className="md:w-full max-w-[16rem] md:max-w-xs"
+        className="max-w-[25rem] md:max-w-[25rem] "
         plugins={[
           Autoplay({
             delay: 2000,
@@ -89,11 +88,16 @@ const EventCarousel = () => {
         <CarouselContent>
           {Array.from(eventDetails).map((event) => (
             <CarouselItem key={event.id}>
-              <div className="p-1">
+              <div className="p-[0.45rem]">
                 <Card>
-                  <CardContent className="flex aspect-square items-center justify-center p-6 flex-col bg-black text-primary-foreground rounded-[0.5rem]">
-                  <Image src={event.image} alt={event.title} width={200} height={200} />
-                    <span className="text-3xl font-semibold">
+                  <CardContent className="flex aspect-square items-center justify-center flex-col bg-black text-primary-foreground rounded-[0.5rem] w-96">
+                    <Image
+                      src={event.image}
+                      alt={event.title}
+                      width={200}
+                      height={200}
+                    />
+                    <span className="text-3xl font-semibold mt-6">
                       {event.title}
                     </span>
                     <span className="text-md font-medium">{event.date}</span>
