@@ -43,8 +43,7 @@ const EventsList = () => {
           show={show}
           onHide={handleClose}
           centered
-          className=" overflow-x-auto overflow-y-scroll  fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 backdrop-blur-3xl bg-gray-900 p-6
-        "
+          className=" overflow-x-auto overflow-y-scroll  fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 backdrop-blur-3xl bg-gray-900 px-4 py-4"
         >
           <Modal.Header closeButton className="flex flex-row justify-between">
             <Modal.Title className="text-white text-3xl mb-8 ">
@@ -57,7 +56,7 @@ const EventsList = () => {
               X
             </Button>
           </Modal.Header>
-          <Modal.Body className="text-white text-base">
+          <Modal.Body className="text-white text-base px-2">
             {selectedEvent.description}
             {selectedEvent.description}
             {selectedEvent.description}
