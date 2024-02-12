@@ -40,7 +40,7 @@ const EventsList = () => {
           show={show}
           onHide={handleClose}
           centered
-          className=" overflow-x-auto overflow-y-auto p-4 fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 no-scrollbar bg-slate-700 bg-opacity-70 backdrop-blur-3xl  px-4 pl-4 py-4"
+          className=" overflow-x-auto overflow-y-auto p-4 fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 no-scrollbar bg-slate-700 bg-opacity-70 backdrop-blur-3xl  px-4 pl-2 py-4"
           style={{
             background: `linear-gradient(${selectedEvent.deg}, ${selectedEvent.from}, ${selectedEvent.to})`,
           }}
