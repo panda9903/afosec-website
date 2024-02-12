@@ -1,15 +1,13 @@
 "use client";
 
-import React from "react";
-import eventList from "./events";
-import { useRouter } from "next/navigation";
-import "./styles.css";
 import { Button } from "@/components/ui/button";
+import { useRouter } from "next/navigation";
+import eventList from "./events";
+import "./styles.css";
 
 import { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 
-import ReactDOM from "react-dom";
 
 type Event = {
   id: string;
@@ -43,10 +41,13 @@ const EventsList = () => {
           show={show}
           onHide={handleClose}
           centered
-          className=" overflow-x-auto overflow-y-scroll  fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 backdrop-blur-3xl bg-gray-900 px-4 py-4"
+          className=" overflow-x-auto overflow-y-scroll p-4 fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 backdrop-blur-3xl px-4 py-4"
+          style={{
+            backgroundImage: `linear-gradient(${selectedEvent.deg}, ${selectedEvent.from}, ${selectedEvent.to})`,
+          }}
         >
           <Modal.Header closeButton className="flex flex-row justify-between">
-            <Modal.Title className="text-white text-3xl mb-8 ">
+            <Modal.Title className="text-[#EA8814] text-3xl mb-8 ">
               {selectedEvent.name}
             </Modal.Title>
             <Button
@@ -56,7 +57,7 @@ const EventsList = () => {
               X
             </Button>
           </Modal.Header>
-          <Modal.Body className="text-white text-base px-2">
+          <Modal.Body className="text-black text-base px-2">
             {selectedEvent.description}
             {selectedEvent.description}
             {selectedEvent.description}

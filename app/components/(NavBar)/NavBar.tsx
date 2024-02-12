@@ -12,7 +12,7 @@ export default function Navbar() {
 
   const menus = [
     { title: "Department Events", path: "/events" },
-    { title: "Central Events", path: "/central-events" },
+    /*{ title: "Central Events", path: "/central-events" },*/
     { title: " FAQ ", path: "/faq" },
     { title: "Contact Us", path: "/contact" },
     { title: "Register", path: "/ticket.html" },
