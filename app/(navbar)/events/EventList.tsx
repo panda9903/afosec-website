@@ -59,57 +59,6 @@ const EventsList = () => {
           </Modal.Header>
           <Modal.Body className="text-black text-base px-2">
             {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
-            {selectedEvent.description}
           </Modal.Body>
           <Modal.Footer className="mt-8">
             <Button variant="secondary" onClick={handleClose}>
