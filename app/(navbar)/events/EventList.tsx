@@ -45,7 +45,7 @@ const EventsList = () => {
             background: `linear-gradient(${selectedEvent.deg}, ${selectedEvent.from}, ${selectedEvent.to})`,
           }}
         >
-          <Modal.Header closeButton className="flex flex-row justify-between">
+          <Modal.Header closeButton className="flex flex-row justify-between pl-4">
             <Modal.Title className="text-[#EA8814] text-3xl mb-8 ">
               {selectedEvent.name}
             </Modal.Title>
