@@ -40,12 +40,12 @@ const EventsList = () => {
           show={show}
           onHide={handleClose}
           centered
-          className=" overflow-x-auto overflow-y-auto p-4 fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 no-scrollbar bg-slate-700 bg-opacity-70 backdrop-blur-3xl  px-4 pl-4 py-4"
+          className=" overflow-x-auto overflow-y-auto p-4 fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 no-scrollbar bg-slate-700 bg-opacity-70 backdrop-blur-3xl  px-4 py-4"
           style={{
             background: `linear-gradient(${selectedEvent.deg}, ${selectedEvent.from}, ${selectedEvent.to})`,
           }}
         >
-          <Modal.Header closeButton className="flex flex-row justify-between pl-4">
+          <Modal.Header closeButton className="flex flex-row justify-between ml-2">
             <Modal.Title className="text-[#EA8814] text-3xl mb-8 ">
               {selectedEvent.name}
             </Modal.Title>
@@ -56,10 +56,10 @@ const EventsList = () => {
               X
             </Button>
           </Modal.Header>
-          <Modal.Body className="text-white text-base px-4">
+          <Modal.Body className="text-white text-base px-2 ml-2">
             {selectedEvent.description}
           </Modal.Body>
-          <Modal.Footer className="mt-8">
+          <Modal.Footer className="mt-8 ml-2">
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
