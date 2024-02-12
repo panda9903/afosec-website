@@ -8,7 +8,6 @@ import "./styles.css";
 import { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 
-
 type Event = {
   id: string;
   name: string;
@@ -41,9 +40,9 @@ const EventsList = () => {
           show={show}
           onHide={handleClose}
           centered
-          className=" overflow-x-auto overflow-y-scroll p-4 fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 backdrop-blur-3xl px-4 py-4"
+          className=" overflow-x-auto overflow-y-auto p-4 fixed md:left-1/4 md:right-1/4 top-1/4 left-[10%] right-[10%] bottom-8 no-scrollbar bg-slate-700 bg-opacity-70 backdrop-blur-3xl  px-4 py-4"
           style={{
-            backgroundImage: `linear-gradient(${selectedEvent.deg}, ${selectedEvent.from}, ${selectedEvent.to})`,
+            background: `linear-gradient(${selectedEvent.deg}, ${selectedEvent.from}, ${selectedEvent.to})`,
           }}
         >
           <Modal.Header closeButton className="flex flex-row justify-between">
@@ -57,7 +56,223 @@ const EventsList = () => {
               X
             </Button>
           </Modal.Header>
-          <Modal.Body className="text-black text-base px-2">
+          <Modal.Body className="text-white text-base px-2">
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
+            {selectedEvent.description}
             {selectedEvent.description}
           </Modal.Body>
           <Modal.Footer className="mt-8">
