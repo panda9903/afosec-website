@@ -56,7 +56,7 @@ const EventsList = () => {
               X
             </Button>
           </Modal.Header>
-          <Modal.Body className="text-white text-base px-2 ml-2">
+          <Modal.Body className="text-white text-base px-2">
             {selectedEvent.description}
           </Modal.Body>
           <Modal.Footer className="mt-8 ml-2">
