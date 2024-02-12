@@ -34,30 +34,34 @@ const faqs = [
   },
   {
     key: "item-5",
-    question: "Whom should I contact for additional information or queries?
-",
-    answer: "  For any further inquiries or clarifications, feel free to reach out to our organizing committee through the contact information provided on the website or via email at afosec@vrsiddhartha.ac.in .",
+    question: "Whom should I contact for additional information or queries?",
+    answer:
+      "  For any further inquiries or clarifications, feel free to reach out to our organizing committee through the contact information provided on the website or via email at afosec@vrsiddhartha.ac.in .",
   },
   {
     key: "item-6",
-    question: "  How can I stay updated on AFOSEC Fest announcements and schedule changes?",
-    answer: "We will email you whatsapp community links few days before the fest once you register. ",
+    question:
+      "  How can I stay updated on AFOSEC Fest announcements and schedule changes?",
+    answer:
+      "We will email you whatsapp community links few days before the fest once you register. ",
   },
   {
     key: "item-7",
-    question: "    Is there an entry fee for AFOSEC Fest?
-",
-    answer: "Yes,one who is intrested in participating in events has to pay a registeration fee and register for the fest. For more details do check the website. ",
+    question: "    Is there an entry fee for AFOSEC Fest?",
+    answer:
+      "Yes,one who is intrested in participating in events has to pay a registeration fee and register for the fest. For more details do check the website. ",
   },
   {
     key: "item-8",
     question: " Is there any spot registration?",
-    answer: "Yes, there will be a helpdesk under the flyover on 28th Feb where you can go pay and register. ",
+    answer:
+      "Yes, there will be a helpdesk under the flyover on 28th Feb where you can go pay and register. ",
   },
   {
     key: "item-9",
     question: "Is whatsapp the only way for updates in-campus?",
-    answer: " N0! not at all. There will be College RJ where everything will be announced and required info will be passs including events which are currently getting started and many more. ",
+    answer:
+      " N0! not at all. There will be College RJ where everything will be announced and required info will be passs including events which are currently getting started and many more. ",
   },
 ];
 
