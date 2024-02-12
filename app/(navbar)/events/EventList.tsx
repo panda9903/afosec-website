@@ -51,7 +51,7 @@ const EventsList = () => {
             </Modal.Title>
             <Button
               onClick={handleClose}
-              className="p-2 h-8 w-8 rounded-full bg-white text-black hover:bg-red-600 md:absolute md:right-8"
+              className="p-2 h-8 w-8 rounded-full bg-white text-black hover:bg-red-600 absolute right-8"
             >
               X
             </Button>
