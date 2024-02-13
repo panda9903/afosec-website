@@ -49,7 +49,7 @@ export default function Home() {
 
         <p className="text-xl my-4">Ai&Ds</p>
         <p>Zayeem : 7396518259</p>
-        <p>B. Sasaanak: 9603905429</p>
+        <p> Leela Priya : 9398060950</p>
         </div>
         </div>
       </div>
