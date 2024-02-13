@@ -1,4 +1,50 @@
 const events = {
+  Civil: [
+    {
+      id: "1",
+      name: "Bridge It",
+      url: "bridge-it",
+      description:
+        " Use provided items, adhere to specs, and compete to bear the highest load.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ffffff",
+      to: "#a8ff78",
+    },
+    {
+      id: "2",
+      name: "Seismic Table",
+      url: "seismic-table",
+      description:
+        " Use bamboo sticks to withstand increasing seismic loads on a shake table.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+    },
+    {
+      id: "3",
+      name: "Auto Cad",
+      url: "auto-cad",
+      description:
+        "Fastest fingers first to create a line diagram within specified specs wins the competition.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+    },
+    {
+      id: "4",
+      name: "E-Poster Presentation",
+      url: "e-poster-presentation",
+      description:
+        "Specify display structure, graphics, data connections, appearance, and layout for impactful presentations.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+    },
+  ],
   CSE: [
     {
       id: "1",
@@ -84,74 +130,6 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-    },
-  ],
-  IT: [
-    {
-      id: "1",
-      name: "UI Utopia / PixelFiesta",
-      url: "ui-utopia",
-      description:
-        " Create a stunning UI on the spot, theme revealed during PixelFiesta. Unleash creativity!",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#FBD786",
-      to: " #00c3ff",
-    },
-    {
-      id: "2",
-      name: "Argumentation",
-      url: "argumentation",
-      description:
-        "  Technical debate showdown! Teams fiercely defend their perspectives on given topics, aiming for victory.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#00c3ff",
-      to: "#ffff1c 60%",
-    },
-    {
-      id: "3",
-      name: "Fast & Furious",
-      url: "fast-and-furious",
-      description:
-        " Participants race to solve problems in their preferred languages.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#FFEE00",
-      to: "rgba(254, 253, 205, 1)",
-    },
-    {
-      id: "4",
-      name: "Bug Busters",
-      url: "bug-busters",
-      description:
-        " Participants identify and fix bugs in incomplete or erroneous code, ensuring it passes test cases.”",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "rgba(254, 253, 205, 1) 11.2%",
-      to: "rgba(163, 230, 255, 1) 91%",
-    },
-    {
-      id: "5",
-      name: "Byte Quiz",
-      url: "byte-quiz",
-      description:
-        "  An intellectually stimulating technical quiz challenging participants’ knowledge and problem-solving skills.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "rgba(254, 253, 205, 1) 11.2%",
-      to: "rgba(163, 230, 255, 1) 91%",
-    },
-    {
-      id: "6",
-      name: "Tech Jam",
-      url: "tech-jam",
-      description:
-        "  Articulate your thoughts on a revealed term or component in a concise time. ",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "rgba(254, 253, 205, 1) 11.2%",
-      to: "rgba(163, 230, 255, 1) 91%",
     },
   ],
   ECE: [
@@ -300,6 +278,118 @@ const events = {
       to: "rgba(254, 253, 205, 1)",
     },
   ],
+  EIE: [
+    {
+      id: "1",
+      name: "Kushagra",
+      url: "kushagra",
+      description: "Description about event",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+    },
+    {
+      id: "2",
+      name: "PCB Design",
+      url: "pcb-design",
+      description: "Description about event",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+    },
+    {
+      id: "3",
+      name: "Techno Cross Word",
+      url: "techno-cross-word",
+      description: "Description about event",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+    },
+    {
+      id: "4",
+      name: "Tech-Talk",
+      url: "tech-talk",
+      description: "Description about event",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+    },
+  ],
+  IT: [
+    {
+      id: "1",
+      name: "UI Utopia / PixelFiesta",
+      url: "ui-utopia",
+      description:
+        " Create a stunning UI on the spot, theme revealed during PixelFiesta. Unleash creativity!",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#FBD786",
+      to: " #00c3ff",
+    },
+    {
+      id: "2",
+      name: "Argumentation",
+      url: "argumentation",
+      description:
+        "  Technical debate showdown! Teams fiercely defend their perspectives on given topics, aiming for victory.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#00c3ff",
+      to: "#ffff1c 60%",
+    },
+    {
+      id: "3",
+      name: "Fast & Furious",
+      url: "fast-and-furious",
+      description:
+        " Participants race to solve problems in their preferred languages.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "#FFEE00",
+      to: "rgba(254, 253, 205, 1)",
+    },
+    {
+      id: "4",
+      name: "Bug Busters",
+      url: "bug-busters",
+      description:
+        " Participants identify and fix bugs in incomplete or erroneous code, ensuring it passes test cases.”",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "rgba(254, 253, 205, 1) 11.2%",
+      to: "rgba(163, 230, 255, 1) 91%",
+    },
+    {
+      id: "5",
+      name: "Byte Quiz",
+      url: "byte-quiz",
+      description:
+        "  An intellectually stimulating technical quiz challenging participants’ knowledge and problem-solving skills.",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "rgba(254, 253, 205, 1) 11.2%",
+      to: "rgba(163, 230, 255, 1) 91%",
+    },
+    {
+      id: "6",
+      name: "Tech Jam",
+      url: "tech-jam",
+      description:
+        "  Articulate your thoughts on a revealed term or component in a concise time. ",
+      imageUrl: "/images/loading.gif",
+      deg: 135,
+      from: "rgba(254, 253, 205, 1) 11.2%",
+      to: "rgba(163, 230, 255, 1) 91%",
+    },
+  ],
+ 
+  
   Mech: [
     {
       id: "1",
@@ -346,52 +436,7 @@ const events = {
       to: "#ffffff",
     },
   ],
-  Civil: [
-    {
-      id: "1",
-      name: "Bridge It",
-      url: "bridge-it",
-      description:
-        " Use provided items, adhere to specs, and compete to bear the highest load.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ffffff",
-      to: "#a8ff78",
-    },
-    {
-      id: "2",
-      name: "Seismic Table",
-      url: "seismic-table",
-      description:
-        " Use bamboo sticks to withstand increasing seismic loads on a shake table.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ee9ca7",
-      to: "#ffdde1",
-    },
-    {
-      id: "3",
-      name: "Auto Cad",
-      url: "auto-cad",
-      description:
-        "Fastest fingers first to create a line diagram within specified specs wins the competition.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ee9ca7",
-      to: "#ffdde1",
-    },
-    {
-      id: "4",
-      name: "E-Poster Presentation",
-      url: "e-poster-presentation",
-      description:
-        "Specify display structure, graphics, data connections, appearance, and layout for impactful presentations.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ee9ca7",
-      to: "#ffdde1",
-    },
-  ],
+ 
   MBA: [
     {
       id: "1",
@@ -470,48 +515,7 @@ const events = {
       to: "#ffdde1",
     },
   ],
-  EIE: [
-    {
-      id: "1",
-      name: "Kushagra",
-      url: "kushagra",
-      description: "Description about event",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ee9ca7",
-      to: "#ffdde1",
-    },
-    {
-      id: "2",
-      name: "PCB Design",
-      url: "pcb-design",
-      description: "Description about event",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ee9ca7",
-      to: "#ffdde1",
-    },
-    {
-      id: "3",
-      name: "Techno Cross Word",
-      url: "techno-cross-word",
-      description: "Description about event",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ee9ca7",
-      to: "#ffdde1",
-    },
-    {
-      id: "4",
-      name: "Tech-Talk",
-      url: "tech-talk",
-      description: "Description about event",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "#ee9ca7",
-      to: "#ffdde1",
-    },
-  ],
+  
 };
 
 export default events;
