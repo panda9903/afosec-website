@@ -2,11 +2,9 @@ const events = {
   CSE: [
     {
       id: "1",
-      name: "Secure Knight",
-      url: "secure-knight",
+      name: " Empowered Indians",
       description:
-        " Test your Cyber security skills in a thrilling bug-hunting competition. ",
-      imageUrl: "/images/loading.gif",
+        " Hackathon. ",
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
@@ -14,9 +12,7 @@ const events = {
     {
       id: "2",
       name: "Shark Tank",
-      url: "shark-tank",
       description: " Rapid-fire idea presentations, creativity unleashed. ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
