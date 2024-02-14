@@ -4,11 +4,13 @@ import React from "react";
 import Image from "next/image";
 import Autoplay from "embla-carousel-autoplay";
 
-import Instagram from "@public/insta.svg";
-import Facebook from "@public/facebook.svg";
-import YouTube from "@public/youtube.svg";
-import Twitter from "@public/twitter.svg";
-import Linkedin from "@public/linkedin.svg";
+import glimse from "@public/goIn.jpg";
+import srujana from "@public/srujana.jpg";
+import gab from "@public/gab.jpg";
+import wrangle from "@public/debate.jpg";
+import melody from "@public/melody.png";
+import rev from "@public/rev.png";
+import team from "@public/tea.png";
 
 import { Card, CardContent } from "@/components/ui/card";
 import {
@@ -24,49 +26,49 @@ const eventDetails = [
     id: 1,
     title: "Glimpses Of India",
     date: "India Quiz",
-    image: Instagram,
+    image: glimse,
   },
   {
     id: 2,
     title: "Srujana",
     date: "Creative Writing",
-    image: Facebook,
+    image: srujana,
   },
   {
     id: 3,
     title: "Gab Fab",
     date: "Extempore Floor Crossing",
-    image: YouTube,
+    image: gab,
   },
   {
     id: 4,
     title: "Wrangle",
     date: "The  Debate",
-    image: Twitter,
+    image: wrangle,
   },
   {
     id: 5,
     title: "Melody Mosaic",
     date: "Feb 28",
-    image: Linkedin,
+    image: melody,
   },
   {
     id: 6,
     title: "Vocal Vortex",
     date: "Feb 28",
-    image: Instagram,
+    image: glimse,
   },
   {
     id: 7,
     title: "Rhythmic Revelry",
     date: "Feb 28",
-    image: Facebook,
+    image: rev,
   },
   {
     id: 8,
     title: "Team Tempo",
     date: "Feb 28",
-    image: Twitter,
+    image: team,
   },
 ];
 

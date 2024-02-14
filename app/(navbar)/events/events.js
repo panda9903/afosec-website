@@ -3,10 +3,8 @@ const events = {
     {
       id: "1",
       name: "Bridge It",
-      url: "bridge-it",
       description:
         " Use provided items, adhere to specs, and compete to bear the highest load.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
@@ -14,10 +12,8 @@ const events = {
     {
       id: "2",
       name: "Seismic Table",
-      url: "seismic-table",
       description:
         " Use bamboo sticks to withstand increasing seismic loads on a shake table.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -25,10 +21,8 @@ const events = {
     {
       id: "3",
       name: "Auto Cad",
-      url: "auto-cad",
       description:
         "Fastest fingers first to create a line diagram within specified specs wins the competition.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -36,10 +30,8 @@ const events = {
     {
       id: "4",
       name: "E-Poster Presentation",
-      url: "e-poster-presentation",
       description:
         "Specify display structure, graphics, data connections, appearance, and layout for impactful presentations.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -49,10 +41,8 @@ const events = {
     {
       id: "1",
       name: "Secure Knight",
-      url: "secure-knight",
       description:
         " Test your Cyber security skills in a thrilling bug-hunting competition. ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
@@ -60,9 +50,7 @@ const events = {
     {
       id: "2",
       name: "Shark Tank",
-      url: "shark-tank",
       description: " Rapid-fire idea presentations, creativity unleashed. ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
@@ -70,10 +58,8 @@ const events = {
     {
       id: "3",
       name: "Trilang Quest",
-      url: "trilang-quest",
       description:
         "Code trio challenge, conquer coding hurdles in specified languages! ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
@@ -81,10 +67,8 @@ const events = {
     {
       id: "4",
       name: "Rapid ML",
-      url: "rapid-ml",
       description:
         " Teams craft ML models from surprise datasets, showcasing accuracy and precision ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
@@ -94,9 +78,7 @@ const events = {
     {
       id: "1",
       name: "Green Gyan",
-      url: "green-gyan",
       description: " Showcase sustainability in a poster!",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
@@ -104,9 +86,7 @@ const events = {
     {
       id: "2",
       name: "Code Wizards",
-      url: "code-wizards",
       description: " Conquer coding challenges strategically in limited time. ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
@@ -114,9 +94,7 @@ const events = {
     {
       id: "3",
       name: " Whisper Challenge",
-      url: "whisper-challenge",
       description: "  Repeat whispered phrases accurately. ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
@@ -124,9 +102,7 @@ const events = {
     {
       id: "4",
       name: " Photo Scavenger",
-      url: "photo-scavenger",
       description: "  capture themed images, racing to bring the best shots first in this visual adventure.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
@@ -136,10 +112,8 @@ const events = {
     {
       id: "1",
       name: "Technoslide",
-      url: "technoslide",
       description:
         " showcase your insights on current technology trends in a compelling presentation.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
@@ -147,10 +121,8 @@ const events = {
     {
       id: "2",
       name: "Electronic Circuit Quiz",
-      url: "electronic-circuit-quiz",
       description:
         "  Tests identification & debugging. Challenges participants to connect circuits accurately from given components and diagrams.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
@@ -158,10 +130,8 @@ const events = {
     {
       id: "3",
       name: "Electronic Project Exhibition",
-      url: "electronic-project-exhibition",
       description:
         "  Participants display their electronic creations in a dynamic exhibition.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
@@ -169,10 +139,8 @@ const events = {
     {
       id: "4",
       name: "Techno Debate",
-      url: "techno-debate",
       description:
         " Engage in a dynamic discussion on the intersection of technology and society.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
@@ -183,7 +151,6 @@ const events = {
       url: "  sing-the-lyric",
       description:
         "  listen to a song lyric and sing the next lyrics.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
@@ -191,10 +158,8 @@ const events = {
     {
       id: "6",
       name: "  Fantasy Pop Quiz",
-      url: "  fantasy-pop-quiz",
       description:
         "Test your knowledge on series like Harry Potter, Game of Thrones, and music sensations like BTS.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
@@ -202,10 +167,8 @@ const events = {
     {
       id: "7",
       name: "  Stick It Right",
-      url: " stick-it-right",
       description:
         "  Locate and tag 9 people in the crowd using sticky notes.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
@@ -213,10 +176,8 @@ const events = {
     {
       id: "8",
       name: " Balloon Pop Challenge",
-      url: " balloon-pop-challenge",
       description:
         "  Dive into the fun as participants burst balloons, completing challenges or dares.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
@@ -225,54 +186,51 @@ const events = {
   EEE: [
     {
       id: "1",
-      name: "Tech Broadcast",
-      url: "tech-broadcast",
-      description:
-        "  Show your tech prowess! Choose a topic, present in a 3-4 minute video. Top participants face Q&A scrutiny",
-      imageUrl: "/images/loading.gif",
+      name: "Tech Fusion Fiesta",
+      description:"Not Available",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
     },
     {
       id: "2",
-      name: "Solder Master",
-      url: "solder-master",
+      name: "Circuit Chronicle",
       description:
-        " Identify components, solder neatly, and showcase a flawless circuit output in this hands-on competition.",
-      imageUrl: "/images/loading.gif",
+        " Not Available.",
       deg: 135,
       from: "#FBD786",
       to: " #00c3ff",
     },
     {
       id: "3",
-      name: "D-Tech-Tive",
-      url: "d-tech-tive",
-      description: "  Uncover technical treasures in a QR-based treasure hunt.",
-      imageUrl: "/images/loading.gif",
+      name: "Squad Rendezavous",
+      description: "  Not Available.",
       deg: 135,
       from: "#00c3ff",
       to: "#ffff1c 60%",
     },
     {
       id: "4",
-      name: "Tech Debate",
-      url: "tech-debate",
+      name: "Startburst Showcase",
       description:
-        " “Tech Debate: 3 intense rounds for tech enthusiasts! Screen, team debate, and final debate on spot technical topics.",
-      imageUrl: "/images/loading.gif",
+        " Not Available",
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
     },
     {
-      id: "4",
-      name: "Technical Quiz",
-      url: " technical-quiz",
+      id: "5",
+      name: "Aroma Quest",
       description:
-        "  Battle through 3 rounds of tech brilliance! Screening, rapid-fire, and buzzer rounds challenge .",
-      imageUrl: "/images/loading.gif",
+        " Not Available",
+      deg: 135,
+      from: "#FFEE00",
+      to: "rgba(254, 253, 205, 1)",
+    },
+    {
+      id: "6",
+      name: "Booyah",
+      description:" Not Available",
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
@@ -282,9 +240,7 @@ const events = {
     {
       id: "1",
       name: "Kushagra",
-      url: "kushagra",
       description: "Description about event",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -292,9 +248,7 @@ const events = {
     {
       id: "2",
       name: "PCB Design",
-      url: "pcb-design",
       description: "Description about event",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -302,9 +256,7 @@ const events = {
     {
       id: "3",
       name: "Techno Cross Word",
-      url: "techno-cross-word",
       description: "Description about event",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -312,9 +264,7 @@ const events = {
     {
       id: "4",
       name: "Tech-Talk",
-      url: "tech-talk",
       description: "Description about event",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -323,11 +273,9 @@ const events = {
   IT: [
     {
       id: "1",
-      name: "UI Utopia / PixelFiesta",
-      url: "ui-utopia",
+      name: "UI Utopia",
       description:
         " Create a stunning UI on the spot, theme revealed during PixelFiesta. Unleash creativity!",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#FBD786",
       to: " #00c3ff",
@@ -335,10 +283,8 @@ const events = {
     {
       id: "2",
       name: "Argumentation",
-      url: "argumentation",
       description:
         "  Technical debate showdown! Teams fiercely defend their perspectives on given topics, aiming for victory.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#00c3ff",
       to: "#ffff1c 60%",
@@ -346,50 +292,22 @@ const events = {
     {
       id: "3",
       name: "Fast & Furious",
-      url: "fast-and-furious",
       description:
         " Participants race to solve problems in their preferred languages.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
     },
     {
       id: "4",
-      name: "Bug Busters",
-      url: "bug-busters",
+      name: "Bug Beaters",
       description:
         " Participants identify and fix bugs in incomplete or erroneous code, ensuring it passes test cases.”",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "rgba(254, 253, 205, 1) 11.2%",
-      to: "rgba(163, 230, 255, 1) 91%",
-    },
-    {
-      id: "5",
-      name: "Byte Quiz",
-      url: "byte-quiz",
-      description:
-        "  An intellectually stimulating technical quiz challenging participants’ knowledge and problem-solving skills.",
-      imageUrl: "/images/loading.gif",
-      deg: 135,
-      from: "rgba(254, 253, 205, 1) 11.2%",
-      to: "rgba(163, 230, 255, 1) 91%",
-    },
-    {
-      id: "6",
-      name: "Tech Jam",
-      url: "tech-jam",
-      description:
-        "  Articulate your thoughts on a revealed term or component in a concise time. ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
     },
   ],
- 
-  
   Mech: [
     {
       id: "1",
@@ -397,7 +315,6 @@ const events = {
       url: "enginex",
       description:
         "   Assemble engine parts, precision and speed determine the victorious assembly!",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
@@ -405,10 +322,8 @@ const events = {
     {
       id: "2",
       name: "Lathe War",
-      url: "lathe-war",
       description:
         "  Machining expertise unleashed! Facing, and tapering to claim victory.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
@@ -416,10 +331,8 @@ const events = {
     {
       id: "3",
       name: "Water Rocket Launch",
-      url: "water-rocket-launch",
       description:
         " Water-powered rockets, competing for impressive heights and distances in this thrilling challenge. ",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
@@ -427,10 +340,8 @@ const events = {
     {
       id: "4",
       name: "Rube Gold Berg Machine",
-      url: "rube-gold-berg-machine",
       description:
         " Craft a whimsical, complex contraption to achieve a simple task.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
@@ -441,10 +352,8 @@ const events = {
     {
       id: "1",
       name: " Brain Blasters - The Kwiz Kraft",
-      url: "brain-blasters",
       description:
         " Corporate knowledge challenge! Face questions on business from India to the world.”",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -452,10 +361,8 @@ const events = {
     {
       id: "2",
       name: "Waall Street Wizards",
-      url: "waall-street-wizards",
       description:
         "  Stock market game challenge! Undergrad and postgrad teams showcase trading skills for thrilling prizes.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -463,10 +370,8 @@ const events = {
     {
       id: "3",
       name: "Market Mavericks",
-      url: "market-mavericks",
       description:
         "  3-round marketing challenge! Teams showcase their marketing expertise to bring dreams to reality.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -474,10 +379,8 @@ const events = {
     {
       id: "4",
       name: "Workforce Hives",
-      url: "workforce-hives",
       description:
         " Personality contest for future managers! Assessing technical knowledge, presentation skills, and teamwork.",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -487,9 +390,7 @@ const events = {
     {
       id: "1",
       name: "Aakritiparva",
-      url: "aakritiparva",
       description: "Description about event",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -497,9 +398,7 @@ const events = {
     {
       id: "2",
       name: "Techno Vidya",
-      url: "techno-vidya",
       description: "Description about event",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -507,9 +406,7 @@ const events = {
     {
       id: "3",
       name: "Avishkar Anveshan",
-      url: "avishkar-anveshan",
       description: "Description about event",
-      imageUrl: "/images/loading.gif",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
