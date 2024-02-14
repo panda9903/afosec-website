@@ -11,7 +11,7 @@ export function RegisterButton() {
         asChild
         className="px-8 bg-[#EA8814] text-white relative bottom-24"
       >
-        <Link href="/ticket.html">
+        <Link href="/register.php">
           <span className="text-lg">Register</span>
         </Link>
       </Button>

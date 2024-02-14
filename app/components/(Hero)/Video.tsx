@@ -3,20 +3,20 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 
 const Video = () => {
-  const [width, setWidth] = useState(0);
+  const [width, setWidth] = useState(window.innerWidth);
   const handleResize = () => {
     setWidth(window.innerWidth);
   };
 
-  console.log(width);
 
   useEffect(() => {
+    console.log(width);
+  
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [width]);
 
   return (
     <div className="mb-4">
