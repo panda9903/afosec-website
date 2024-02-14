@@ -148,7 +148,6 @@ const events = {
     {
       id: "5",
       name: "  Sing the Lyric",
-      url: "  sing-the-lyric",
       description:
         "  listen to a song lyric and sing the next lyrics.",
       deg: 135,
@@ -312,7 +311,6 @@ const events = {
     {
       id: "1",
       name: "EngineX",
-      url: "enginex",
       description:
         "   Assemble engine parts, precision and speed determine the victorious assembly!",
       deg: 135,

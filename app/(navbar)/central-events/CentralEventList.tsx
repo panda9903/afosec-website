@@ -12,7 +12,6 @@ type Event = {
   id: string;
   name: string;
   description: string;
-  url: string;
   deg: number;
   from: string;
   to: string;
@@ -73,7 +72,7 @@ const EventsList = () => {
               {department}
             </p>
             <div className="flex md:flex-row gap-4 flex-col flex-wrap justify-center items-center md:justify-start">
-              {events.map(({ id, name, description, url, deg, from, to }) => {
+              {events.map(({ id, name, description, deg, from, to }) => {
                 return (
                   <div key={name}>
                     <div className="flip-card" key={name}>
@@ -100,7 +99,6 @@ const EventsList = () => {
                                 id,
                                 name,
                                 description,
-                                url,
                                 deg,
                                 from,
                                 to,
