@@ -1,23 +1,16 @@
 "use client";
 import React, { useEffect } from "react";
 import { useState } from "react";
+import {
+  useWindowWidth,
+} from '@react-hook/window-size'
 
 const Video = () => {
-  const [width, setWidth] = useState(100);
-  const handleResize = () => {
-    setWidth(window.innerWidth);
-  };
-
-
-  useEffect(() => {
-
-    handleResize();
+  const width = useWindowWidth()
   
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [width]);
+  const isDesktop = width > 768;
+
+  //alert(isDesktop)
 
   return (
     <div className="mb-4">
@@ -30,11 +23,17 @@ const Video = () => {
         loop
         className="w-screen h-screen object-cover"
       >
-        {width > 768 ? ( // 768px is the breakpoint for mobile
+        {/*{width > 768 ? ( 
           <source src="../../../landscape.mp4" type="video/mp4" />
         ) : (
           <source src="../../../potrait.mp4" type="video/mp4" />
-        )}
+        )}*/}
+        {
+          isDesktop && <source src="../../../landscape.mp4" type="video/mp4" />
+        }
+        {
+          !isDesktop && <source src="../../../potrait.mp4" type="video/mp4" />
+        }
         Your browser does not support HTML5 video.
       </video>
     </div>
