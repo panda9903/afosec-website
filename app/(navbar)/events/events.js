@@ -3,20 +3,53 @@ const events = {
     {
       id: "1",
       name: "Bridge It",
-      description:
-        " Use provided items, adhere to specs, and compete to bear the highest load.",
+      description: "Use provided items, adhere to specs, and compete to bear the highest load.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
+      DesX: `Objective: It a unique kind of competition where students are encouraged to build a Bridge with in a stipulated time and Material provided. This creates an opportunity for the students to apply all their knowledge about structural framework such that the bridge withstands the highest loads. The bridges built will be tested by gradually loading the weights on the deck. The Bridge which take higher loads will stands as a winner.<br>
+      Eligibility: All branches<br>
+      No. of participants: A Team of Max 3 Members.<br>
+      •	Group with maximum of three members are allowed.<br>
+      •	Participants should prepare the model with the materials provided by us only; no other extra material should be used.<br>
+      •	If any material other than the one provided by us is found to be used, the team will be disqualified immediately.<br>
+      •	All Materials will be provided by us during the event.<br><br><br>
+      •	Use of Glue gun is not permitted to join the sticks.<br>
+      •	All the participants will be given a time of maximum 1 hour to prepare the model.<br>
+      •	The models will be tested by loading the weights on the deck gradually.<br>
+      •	The model which takes highest load will stand out as the winner of the event.<br>
+      •	Best two groups will be rewarded with the certificates and prize money.<br>
+      •	Certificates will be given to all the participants.<br>
+      •	Each member of the team must contain the identity card of his/her respected institute.<br>
+      •	Unethical behavior could lead to disqualification. Faculty-coordinators have all the rights to take final decision for any matter during the event.<br>
+      *Rules may subject to change.`
     },
     {
       id: "2",
       name: "Seismic Table",
-      description:
-        " Use bamboo sticks to withstand increasing seismic loads on a shake table.",
+      description: "Use bamboo sticks to withstand increasing seismic loads on a shake table.",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `Objective: It a unique kind of competition where students are encouraged to develop a structural frame model with in a stipulated time and Material provided. This creates an opportunity for the students to apply all their knowledge about structural framework and seismic design knowledge such that the structural frame built withstands the lateral loads. The Frames built will be tested on a shake table equipment under gradually increasing frequencies. The frame which stands longer subjected to Lateral loads will stands as a winner.<br>
+      Eligibility: UG/PG Students of Civil Engineering Courses.<br>
+      No. of participants: A Team of Max 2 Members<br>
+      Rules and Regulations:<br>
+      •	Group with maximum of three members are allowed.<br>
+      •	Participants should prepare the model with the materials provided by us only; no other extra material should be used.<br>
+      •	If any material other than the one provided by us is found to be used, the team will be disqualified immediately.<br>
+      •	Materials to be provided- Bamboo sticks- 40 No.s, Thread – limited quantity (cut in predefined length), Small Fevicol bottle, Knife/ scissors, Base plate<br>
+      •	Use of Glue gun is not permitted to join the sticks.<br>
+      •	Guidelines to Prepare the model: Size of fame should be 10cm X 15cm, the frame should consist of one bay and maximum of 3 floors height, Height of each floor should be limited to 0.3m, Weight of the frame should be limited to 600gms, All the floor levels should be provided with platform.<br>
+      •	All the participants will be given a time of maximum 2 hours to prepare the model and the models will be tested on the second day of the event.<br>
+      •	The models will be tested on the Shake Table with increasing frequency.<br>
+      •	Load may also be added to the models by us while testing the model.<br>
+      •	The model which takes highest time to fail will stand out as the winner of the event.<br>
+      •	Best two groups will be rewarded with the certificates and prize money.<br>
+      •	Certificates will be given to all the participants.<br>
+      •	Each member of the team must contain the identity card of his/her respected institute.<br>
+      •	Unethical behavior could lead to disqualification. Faculty-coordinators have all the rights to take final decision for any matter during the event.<br>
+      *Rules may subject to change.<br>`
     },
     {
       id: "3",
@@ -26,16 +59,53 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `Objective: It a unique kind of competition where students are encouraged to draft a plan of their own in the specified area in AutoCAD. This creates an opportunity for the students to bring out their imagination and ideas in preparing a plan in AutoCAD.  There will be two levels in the event.<br>
+
+      Level-1: There will be a written test with basic questions. Students who get marks more than the decided cutoff will be moved to Level-2.<br>
+
+      Level-2: students will be given instructions about the area and the storey details and will be given 1 hour to draft the plan of their own in AutoCAD. Students who will draw the best plan with all specifications in stipulated time will be the winner.<br>
+
+      ELIGIBILITY: UG/PG Students of Civil Engineering Courses.<br>
+      No. of participants: Individual<br>
+      Rules and Regulations:<br>
+      •	Participants should be registered to the event individually within the time or even by spot registration.<br>
+      •	Participants should not carry mobile phones or any gadgets to the event.<br>
+      •	Students have to attend Level-1 test and only who get marks more than the decided cutoff will be moved to Level-2.<br>
+      •	Students have to complete drafting of plan with in the stipulated time.<br>
+      •	Students should not open internet or any other file during the event.<br>
+      •	Plan drafted should be submitted in PDF format to the coordinator for evaluation.<br>
+      •	All Plans will be evaluated and the one which is best with all the specifications mentioned will be declared as the winner.<br>
+      •	Best Two Individuals will be rewarded with certificates and prize money.<br>
+      •	Certificates will be given to all the participants.<br>
+      •	Each member of the team must contain the identity card of his/her respected institute.<br>
+      •	Unethical behavior could lead to disqualification. Faculty-coordinators have all the rights to take final decision for any matter during the event.<br>
+      *Rules may subject to change.<br>`
     },
     {
       id: "4",
       name: "E-Poster Presentation",
-      description:
-        "Specify display structure, graphics, data connections, appearance, and layout for impactful presentations.",
+      description: "Specify display structure, graphics, data connections, appearance, and layout for impactful presentations.",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-    },
+      DesX: `Objective: It a unique kind of competition where students are encouraged to construct a e-poster presentation. This creates an opportunity for the students to apply all their knowledge about the civil engineering and to come up with their unique ideas<br>
+      Domains:<br>
+      1.	Nanotechnology in Civil Engineering<br>
+      2.	Futuristic architecture<br>
+      3.	Smart Roads/Intelligent Transportation Systems<br>
+      4.	Stress Ribbon Bridge<br>
+      5.	Cyclone Resistant Building Construction<br>
+      6.	Optimization of Water Resource Systems<br>
+      7.	Trends in Concrete Technology<br>
+      8.	Feng Shui And Vaastu Shastra<br>
+      9.	Trenchless Technology<br>
+      10.	Constructional Safety<br>
+      No. of participants: A Team of Max 2 Members<br>
+      Eligibility: UG/PG Students of Civil Engineering Courses<br>
+      Rules and Regulations :<br>
+      •	Poster should be done prior to the event.<br>
+      •	10 Minutes time will be given to explain your idea and poster.<br>`
+    }
   ],
   CSE: [
     {
@@ -46,6 +116,7 @@ const events = {
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
+      DesX: `   `
     },
     {
       id: "2",
@@ -54,6 +125,7 @@ const events = {
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
+      DesX: `   `
     },
     {
       id: "3",
@@ -63,6 +135,7 @@ const events = {
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
+      DesX: `   `
     },
     {
       id: "4",
@@ -72,6 +145,7 @@ const events = {
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
+      DesX: `   `
     },
   ],
   AIDS: [
@@ -82,6 +156,7 @@ const events = {
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
+      DesX: `   `
     },
     {
       id: "2",
@@ -90,6 +165,7 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
+      DesX: `   `
     },
     {
       id: "3",
@@ -98,6 +174,7 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
+      DesX: `   `
     },
     {
       id: "4",
@@ -106,62 +183,119 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
+      DesX: `   `
     },
   ],
   ECE: [
     {
       id: "1",
-      name: "Technoslide",
+      name: " VOLTAGE QUEST",
       description:
-        " showcase your insights on current technology trends in a compelling presentation.",
+        "  Identify, debug, and connect! Students compete in rounds testing circuit knowledge and hands-on skills.”",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
+      DesX: ` Objective:
+      To Identify, Debug, and Connect various Electronic Circuits.
+      Description:
+      Round 1 - Circuit Identification & Debugging Quiz:
+      The teams need to identify/debug the given circuits to choose the right option in the online quiz. The teams with the highest scores will be promoted to the final round.
+      Round 2 - Circuit Connection Round:
+      The teams need to connect a given circuit on a Breadboard. The circuit diagram will be shown. The components and breadboard will be provided. The team that connects the circuit quickly and correctly will win.
+      Rules and Regulations:
+       Each team should consist of at most 3 members.
+       For Round 2, a five-minute gap will be given.
+       The team that will score the most points will win in Round 1.
+       The team that will connect the circuit quickly and correctly will win in Round 2.
+       Group members are to be registered separately.
+      Eligibility: Students of ECE, EEE and EIE No. of Participants: 1/2/3  `
     },
     {
       id: "2",
-      name: "Electronic Circuit Quiz",
+      name: "INFINITY TECH SHOWCASE",
       description:
-        "  Tests identification & debugging. Challenges participants to connect circuits accurately from given components and diagrams.",
+        "   Individual PPT challenge! Present cutting-edge technology in a compelling presentation to win the event.",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
+      DesX: `  Objective:
+      To present a PPT presentation on Present Technology.
+      Description:
+      The participant is expected to make a PPT on any Present Technology and submit the file before the start of the event. The person should do his presentation in front of the other participants. Whoever does the presentation better will win the event.
+      Rules and Regulations:
+       Everyone should participate individually.
+       The judges’ decision shall be treated as final and binding on all.
+      Eligibility: Students of any Stream No. of Participants: 1 `
     },
     {
       id: "3",
-      name: "Electronic Project Exhibition",
+      name: "ELECTRONICS PROJECT EXPO ",
       description:
-        "  Participants display their electronic creations in a dynamic exhibition.",
+        "   Showcase your innovation! Teams of up to 4 members present and explain their self-made electronics projects to the judges.",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
+      DesX: `  Objective:
+      To display an Electronics Project that the participant has done.
+      Description:
+      The participants should bring an Electronics project that they have done and explain its operation and applications to the judges.
+      Rules and Regulations:
+       Each Team can consist of at most 4 members.
+       Participants need to take care of their projects by themselves.
+       The judges’ decision shall be treated as final and binding on all.
+      Eligibility: Students of ECE, EEE, and EIE No. of Participants: 1/2/3/4 `
     },
     {
       id: "4",
-      name: "Techno Debate",
+      name: "BYTE BATTLE",
       description:
-        " Engage in a dynamic discussion on the intersection of technology and society.",
+        " Engage in technical debates!  Discuss and debate given topics, aiming to be the top performers.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
+      DesX: `  Objective:
+      To Discuss and Debate on the given Technical Topic.
+      Description:
+      According to the number of participants in the event, everyone will be divided into different groups. Each group will be given a different Technology or Current Affairs topic. The top 2 best performers will be selected from each group for the next round. This process will continue till we select the best performers in the final round.
+      Rules and Regulations:
+       Participants should register for the event individually.
+       Participants need to be decent and should not talk offensively.
+       The judges’ decision shall be treated as final and binding on all.
+      Eligibility: Students of any Stream No. of participants: 1 `
     },
     {
       id: "5",
-      name: "  Sing the Lyric",
+      name: "  WIZARDLY THRONES & KPOP CHRONICLES",
       description:
-        "  listen to a song lyric and sing the next lyrics.",
+        "  Test your knowledge! Compete to answer fantasy franchise and music trivia questions, aiming for the highest score.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
+      DesX: ` Objective:
+      To answer different trivia questions on Fantasy Franchises and Music.
+      Description:
+      The teams need to answer different trivia questions correctly in the online quiz. The teams with the highest scores will win the event.
+      Rules and Regulations:
+       Each team should consist of at most 4 members.
+       The team that will score the most points will win.
+       Group members are to be registered separately.
+      Eligibility: Students of any Stream No. of participants: 1/2/3/4  `
     },
     {
       id: "6",
-      name: "  Fantasy Pop Quiz",
+      name: "  MINUTE TO WIN IT",
       description:
-        "Test your knowledge on series like Harry Potter, Game of Thrones, and music sensations like BTS.",
+        "Pop for a challenge! Individuals pop balloons, completing dares written inside within a thrilling 1-minute countdown.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
+      DesX: `  Objective:
+      To pop a random balloon and do the dare that is given inside it in 1 minute.
+      Description:
+      Challenges or Dares will be written on slips of paper which will be put inside balloons. Participants need to pop a random balloon and finish the task given inside it in 1 minute.
+      Rules and Regulations:
+       Each participant should participate individually.
+      Eligibility: Students of any Stream No. of participants: 1 `
     },
     {
       id: "7",
@@ -171,15 +305,35 @@ const events = {
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
+      DesX: `  Objective:
+      STICK IT RIGHT
+      To find the given people in our college and stick a sticky note on each of them quickly.
+      Description:
+      Participants need to form a group of 4. Team numbers will be allotted and each team will get 9 sticky notes. Pictures of 9 people will be posted on our Instagram Page. These people will be in our college for the day. The team that finds all the 9 people and sticks the sticky notes to them first will be the winners.
+      Rules and Regulations:
+       Each team should consist of 4 members.
+       The team that will find the 9 members the quickest will win.
+       Group members are to be registered separately.
+      Eligibility: Students of any Stream No. of participants: 4 `
     },
     {
       id: "8",
-      name: " Balloon Pop Challenge",
+      name: " BLINDFOLD DRAWING",
       description:
-        "  Dive into the fun as participants burst balloons, completing challenges or dares.",
+        "  Team creativity challenge! In pairs, one blindfolded participant completes an incomplete drawing with guidance.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
+      DesX: ` Objective:
+      BLINDFOLD DRAWING
+      To draw the incomplete drawing neatly while being blindfolded.
+      Description:
+      Participants should form a team of 2. One person will be blindfolded. Both of them will be given a canvas with an incomplete drawing. The blindfolded person should finish that drawing with the instructions given by the other participant.
+      Rules and Regulations:
+       Each team should consist of 2 members.
+       The team that finishes the drawing neatly will win.
+       The judges’ decision shall be treated as final and binding on all.
+      Eligibility: Students of any Stream No. of participants: 2  `
     },
   ],
   EEE: [
@@ -190,6 +344,7 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
+      DesX: `   `
     },
     {
       id: "2",
@@ -199,6 +354,7 @@ const events = {
       deg: 135,
       from: "#FBD786",
       to: " #00c3ff",
+      DesX: `   `
     },
     {
       id: "3",
@@ -207,6 +363,7 @@ const events = {
       deg: 135,
       from: "#00c3ff",
       to: "#ffff1c 60%",
+      DesX: `   `
     },
     {
       id: "4",
@@ -216,6 +373,7 @@ const events = {
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
+      DesX: `   `
     },
     {
       id: "5",
@@ -225,6 +383,7 @@ const events = {
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
+      DesX: `   `
     },
     {
       id: "6",
@@ -233,6 +392,7 @@ const events = {
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
+      DesX: `   `
     },
   ],
   EIE: [
@@ -243,6 +403,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "2",
@@ -251,6 +412,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "3",
@@ -259,6 +421,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "4",
@@ -267,6 +430,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
   ],
   IT: [
@@ -278,6 +442,7 @@ const events = {
       deg: 135,
       from: "#FBD786",
       to: " #00c3ff",
+      DesX: `   `
     },
     {
       id: "2",
@@ -287,6 +452,7 @@ const events = {
       deg: 135,
       from: "#00c3ff",
       to: "#ffff1c 60%",
+      DesX: `   `
     },
     {
       id: "3",
@@ -296,6 +462,7 @@ const events = {
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
+      DesX: `   `
     },
     {
       id: "4",
@@ -305,6 +472,7 @@ const events = {
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
+      DesX: `   `
     },
   ],
   Mech: [
@@ -316,6 +484,7 @@ const events = {
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
+      DesX: `   `
     },
     {
       id: "2",
@@ -325,6 +494,7 @@ const events = {
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
+      DesX: `   `
     },
     {
       id: "3",
@@ -334,6 +504,7 @@ const events = {
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
+      DesX: `   `
     },
     {
       id: "4",
@@ -343,9 +514,9 @@ const events = {
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
+      DesX: `   `
     },
   ],
- 
   MBA: [
     {
       id: "1",
@@ -355,6 +526,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "2",
@@ -364,6 +536,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "3",
@@ -373,6 +546,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "4",
@@ -382,6 +556,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
   ],
   MCA: [
@@ -392,6 +567,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "2",
@@ -400,6 +576,7 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
     {
       id: "3",
@@ -408,9 +585,9 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
+      DesX: `   `
     },
   ],
-  
 };
 
 export default events;
