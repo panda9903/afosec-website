@@ -189,113 +189,113 @@ const events = {
   ECE: [
     {
       id: "1",
-      name: " VOLTAGE QUEST",
+      name: " Voltage Quest",
       description:
         "  Identify, debug, and connect! Students compete in rounds testing circuit knowledge and hands-on skills.”",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
-      DesX: ` Objective:
-      To Identify, Debug, and Connect various Electronic Circuits.
-      Description:
-      Round 1 - Circuit Identification & Debugging Quiz:
-      The teams need to identify/debug the given circuits to choose the right option in the online quiz. The teams with the highest scores will be promoted to the final round.
-      Round 2 - Circuit Connection Round:
+      DesX: ` Objective:<br>
+      To Identify, Debug, and Connect various Electronic Circuits.<br>
+      Description:<br>
+      Round 1 - Circuit Identification & Debugging Quiz:<br>
+      The teams need to identify/debug the given circuits to choose the right option in the online quiz. The teams with the highest scores will be promoted to the final round.<br>
+      Round 2 - Circuit Connection Round:<br>
       The teams need to connect a given circuit on a Breadboard. The circuit diagram will be shown. The components and breadboard will be provided. The team that connects the circuit quickly and correctly will win.
-      Rules and Regulations:
-       Each team should consist of at most 3 members.
-       For Round 2, a five-minute gap will be given.
-       The team that will score the most points will win in Round 1.
-       The team that will connect the circuit quickly and correctly will win in Round 2.
-       Group members are to be registered separately.
-      Eligibility: Students of ECE, EEE and EIE No. of Participants: 1/2/3  `
+      <br> Rules and Regulations:<br>
+       Each team should consist of at most 3 members.<br>
+       For Round 2, a five-minute gap will be given.<br>
+       The team that will score the most points will win in Round 1.<br>
+       The team that will connect the circuit quickly and correctly will win in Round 2.<br>
+       Group members are to be registered separately.<br>
+      <br>Eligibility: Students of ECE, EEE and EIE<br> No. of Participants: 1/2/3  `
     },
     {
       id: "2",
-      name: "INFINITY TECH SHOWCASE",
+      name: " Infinity Tech Showcase",
       description:
         "   Individual PPT challenge! Present cutting-edge technology in a compelling presentation to win the event.",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
-      DesX: `  Objective:
-      To present a PPT presentation on Present Technology.
-      Description:
+      DesX: `  Objective:<br>
+      To present a PPT presentation on Present Technology.<br>
+      Description:<br>
       The participant is expected to make a PPT on any Present Technology and submit the file before the start of the event. The person should do his presentation in front of the other participants. Whoever does the presentation better will win the event.
-      Rules and Regulations:
-       Everyone should participate individually.
-       The judges’ decision shall be treated as final and binding on all.
-      Eligibility: Students of any Stream No. of Participants: 1 `
+      <br>Rules and Regulations:<br>
+       Everyone should participate individually.<br>
+       The judges decision shall be treated as final and binding on all.<br>
+      <br>Eligibility: Students of any Stream <br>No. of Participants: 1 `
     },
     {
       id: "3",
-      name: "ELECTRONICS PROJECT EXPO ",
+      name: "  Electronics Project Expo",
       description:
         "   Showcase your innovation! Teams of up to 4 members present and explain their self-made electronics projects to the judges.",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
-      DesX: `  Objective:
-      To display an Electronics Project that the participant has done.
-      Description:
-      The participants should bring an Electronics project that they have done and explain its operation and applications to the judges.
-      Rules and Regulations:
-       Each Team can consist of at most 4 members.
-       Participants need to take care of their projects by themselves.
-       The judges’ decision shall be treated as final and binding on all.
-      Eligibility: Students of ECE, EEE, and EIE No. of Participants: 1/2/3/4 `
+      DesX: `  Objective:<br>
+      To display an Electronics Project that the participant has done.<br>
+      Description:<br>
+      The participants should bring an Electronics project that they have done and explain its operation and applications to the judges.<br>
+      Rules and Regulations:<br>
+       Each Team can consist of at most 4 members.<br>
+       Participants need to take care of their projects by themselves.<br>
+       The judges decision shall be treated as final and binding on all.<br>
+      Eligibility: Students of ECE, EEE, and EIE <br>No. of Participants: 1/2/3/4 `
     },
     {
       id: "4",
-      name: "BYTE BATTLE",
+      name: " Byte Battle",
       description:
         " Engage in technical debates!  Discuss and debate given topics, aiming to be the top performers.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
       DesX: `  Objective:
-      To Discuss and Debate on the given Technical Topic.
-      Description:
-      According to the number of participants in the event, everyone will be divided into different groups. Each group will be given a different Technology or Current Affairs topic. The top 2 best performers will be selected from each group for the next round. This process will continue till we select the best performers in the final round.
-      Rules and Regulations:
-       Participants should register for the event individually.
-       Participants need to be decent and should not talk offensively.
-       The judges’ decision shall be treated as final and binding on all.
-      Eligibility: Students of any Stream No. of participants: 1 `
+      To Discuss and Debate on the given Technical Topic.<br>
+      Description:<br>
+      <br>According to the number of participants in the event, everyone will be divided into different groups. Each group will be given a different Technology or Current Affairs topic. The top 2 best performers will be selected from each group for the next round. This process will continue till we select the best performers in the final round.
+      Rules and Regulations:<br>
+       Participants should register for the event individually.<br>
+       Participants need to be decent and should not talk offensively.<br>
+       The judges decision shall be treated as final and binding on all.<br>
+      Eligibility: Students of any Stream<br> No. of participants: 1 `
     },
     {
       id: "5",
-      name: "  WIZARDLY THRONES & KPOP CHRONICLES",
+      name: " Wizardy Thrones & KPop Chronicles",
       description:
         "  Test your knowledge! Compete to answer fantasy franchise and music trivia questions, aiming for the highest score.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-      DesX: ` Objective:
-      To answer different trivia questions on Fantasy Franchises and Music.
-      Description:
-      The teams need to answer different trivia questions correctly in the online quiz. The teams with the highest scores will win the event.
-      Rules and Regulations:
-       Each team should consist of at most 4 members.
-       The team that will score the most points will win.
-       Group members are to be registered separately.
-      Eligibility: Students of any Stream No. of participants: 1/2/3/4  `
+      DesX: ` Objective:<br>
+      To answer different trivia questions on Fantasy Franchises and Music.<br>
+      Description:<br>
+      The teams need to answer different trivia questions correctly in the online quiz. The teams with the highest scores will win the event.<br>
+      Rules and Regulations:<br>
+       Each team should consist of at most 4 members.<br>
+       The team that will score the most points will win.<br>
+       Group members are to be registered separately.<br>
+      Eligibility: Students of any Stream <br>No. of participants: 1/2/3/4  `
     },
     {
       id: "6",
-      name: "  MINUTE TO WIN IT",
+      name: "   Minute to Win It",
       description:
         "Pop for a challenge! Individuals pop balloons, completing dares written inside within a thrilling 1-minute countdown.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-      DesX: `  Objective:
-      To pop a random balloon and do the dare that is given inside it in 1 minute.
-      Description:
+      DesX: `  Objective:<br>
+      To pop a random balloon and do the dare that is given inside it in 1 minute.<br>
+      Description:<br>
       Challenges or Dares will be written on slips of paper which will be put inside balloons. Participants need to pop a random balloon and finish the task given inside it in 1 minute.
-      Rules and Regulations:
-       Each participant should participate individually.
-      Eligibility: Students of any Stream No. of participants: 1 `
+      <br>Rules and Regulations:<br>
+       Each participant should participate individually.<br>
+      Eligibility: Students of any Stream <br>No. of participants: 1 `
     },
     {
       id: "7",
@@ -305,35 +305,33 @@ const events = {
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-      DesX: `  Objective:
-      STICK IT RIGHT
-      To find the given people in our college and stick a sticky note on each of them quickly.
-      Description:
-      Participants need to form a group of 4. Team numbers will be allotted and each team will get 9 sticky notes. Pictures of 9 people will be posted on our Instagram Page. These people will be in our college for the day. The team that finds all the 9 people and sticks the sticky notes to them first will be the winners.
-      Rules and Regulations:
-       Each team should consist of 4 members.
-       The team that will find the 9 members the quickest will win.
-       Group members are to be registered separately.
-      Eligibility: Students of any Stream No. of participants: 4 `
+      DesX: `  Objective:<br>
+      To find the given people in our college and stick a sticky note on each of them quickly.<br>
+      Description:<br>
+      <br>Participants need to form a group of 4. Team numbers will be allotted and each team will get 9 sticky notes. Pictures of 9 people will be posted on our Instagram Page. These people will be in our college for the day. The team that finds all the 9 people and sticks the sticky notes to them first will be the winners.
+      <br>Rules and Regulations:<br>
+       Each team should consist of 4 members.<br>
+       The team that will find the 9 members the quickest will win.<br>
+       Group members are to be registered separately.<br>
+      Eligibility: Students of any Stream<br> No. of participants: 4 `
     },
     {
       id: "8",
-      name: " BLINDFOLD DRAWING",
+      name: "  Blindfold Drawing",
       description:
         "  Team creativity challenge! In pairs, one blindfolded participant completes an incomplete drawing with guidance.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-      DesX: ` Objective:
-      BLINDFOLD DRAWING
-      To draw the incomplete drawing neatly while being blindfolded.
-      Description:
+      DesX: ` Objective:<br>
+      To draw the incomplete drawing neatly while being blindfolded.<br>
+      Description:<br>
       Participants should form a team of 2. One person will be blindfolded. Both of them will be given a canvas with an incomplete drawing. The blindfolded person should finish that drawing with the instructions given by the other participant.
-      Rules and Regulations:
-       Each team should consist of 2 members.
-       The team that finishes the drawing neatly will win.
-       The judges’ decision shall be treated as final and binding on all.
-      Eligibility: Students of any Stream No. of participants: 2  `
+      <br> Rules and Regulations:<br>
+       Each team should consist of 2 members.<br>
+       The team that finishes the drawing neatly will win.<br>
+       The judges decision shall be treated as final and binding on all.<br>
+      Eligibility: Students of any Stream <br>No. of participants: 2`
     },
   ],
   EEE: [
