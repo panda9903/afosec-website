@@ -442,7 +442,18 @@ const events = {
       deg: 135,
       from: "#FBD786",
       to: " #00c3ff",
-      DesX: `   `
+      DesX: ` Objective:  <br>
+      "To foster creative and user-centric design solutions while emphasizing usability and aesthetics in
+      a UI design.”<br>
+      Description:<br>
+      This is a UI designing competition,the theme of the application will be given at the time of
+      the event and the participants need to design a User Interface using tools they are
+      comfortable with. (No coding required)<br>
+      Rules and Regulations:<br>
+       Everyone should participate individually.<br>
+       The judges’ decision shall be treated as final and binding on all.<br>
+      Eligibility: Students of any stream.<br>
+      No. of Participants: 1  `
     },
     {
       id: "2",
@@ -452,7 +463,28 @@ const events = {
       deg: 135,
       from: "#00c3ff",
       to: "#ffff1c 60%",
-      DesX: `   `
+      DesX: ` <br>Description:<br>
+      "Arguementum is where ideas collide, This is a platform for students to engage in
+      lively discussions and present well-reasoned arguments. This event encourages
+      participants to showcase their debating skills, fostering critical thinking and effective
+      communication. Join us as we explore diverse topics, promoting intellectual
+      exchange and the art of persuasive discourse in a dynamic and collaborative setting."<br>
+      Rules and Regulations:<br>
+      Round 1 - General Debate<br>
+      1. The participants are divided into teams based on the side they choose to defend.<br>
+      2. Languages other than English are not encouraged.<br>
+      3. Participants must not under any circumstance use unparlimentary language.<br>
+      4. Participants are strictly prohibited from using any political examples to stand their
+      ground.<br>
+      Round 2 - The Climax:<br>
+      1. The Participants are encouraged to speakup on the topics that they couldnt address
+      during the 1st round, And have to face the questions asked by the other participants.<br>
+      2. This adds additional benefits on the overall performance.<br>
+      Eligibility:<br>
+      Open to students of any stream with a passion for participating in a dynamic
+      environment of critical thinking.<br>
+      Number of Participants:<br>
+      Individual Participation <br>  `
     },
     {
       id: "3",
@@ -462,7 +494,23 @@ const events = {
       deg: 135,
       from: "#FFEE00",
       to: "rgba(254, 253, 205, 1)",
-      DesX: `   `
+      DesX: `  Description: <br>
+      Get ready for a coding extravaganza in "Fast and Furious"! Participants will engage
+      in a high-speed coding competition where the emphasis is on coding prowess. Each
+      participant will tackle a series of challenging coding problems, demonstrating their
+      ability to code rapidly and efficiently. <br>
+      Rules and Regulations:
+      1. Participants must register individually for the event. <br> <br>
+      2. All coding languages are allowed . <br>
+      3. Participants are expected to solve coding challenges within a specified time limit. <br>
+      4. Plagiarism is strictly prohibited; participants must write their code independently. <br>
+      5. Judges' decisions are final and binding. <br>
+      6. Participants should maintain a respectful and sportsmanlike demeanor throughout
+      the competition. <br>
+      Eligibility: <br>
+      Open to students of any stream with a passion for coding. <br>
+      Number of Participants: <br>
+      Individual participation. <br> `
     },
     {
       id: "4",
@@ -472,7 +520,25 @@ const events = {
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
-      DesX: `   `
+      DesX: `  Description: <br>
+      Dive into the world of code debugging in "Bug Beaters"! Participants will be
+      provided with code snippets containing bugs, and their challenge is to identify and
+      fix the errors efficiently. Precision and speed are key in this event as participants
+      strive to become the ultimate Bug Beater.<br>
+      Rules and Regulations:<br>
+      1. Individual registration is mandatory for participation.<br>
+      2. Participants will receive code snippets with intentional bugs that need fixing.<br>
+      3. Time constraints will apply, adding an element of urgency to the debugging
+      process.<br>
+      4. Collaboration between participants is not allowed; each individual must work
+      independently.<br>
+      5. Judges' decisions are final, and participants should adhere to a respectful code of
+      conduct.<br>
+      6. Focus on fixing errors rather than rewriting entire code segments.<br>
+      Eligibility:<br>
+      Open to students of any stream with a knack for debugging and problem-solving.<br>
+      Number of Participants:<br>
+      Individual participation. `
     },
   ],
   Mech: [
