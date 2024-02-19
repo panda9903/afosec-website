@@ -116,7 +116,7 @@ const events = {
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
-      DesX: `   `
+      DesX: `    `
     },
     {
       id: "2",
@@ -129,6 +129,15 @@ const events = {
     },
     {
       id: "3",
+      name: "Get Sherlocked",
+      description: " Showcase sustainability in a poster!",
+      deg: 135,
+      from: "#ffffff",
+      to: "#a8ff78",
+      DesX: `   `
+    },
+    {
+      id: "4",
       name: "Trilang Quest",
       description:
         "Code trio challenge, conquer coding hurdles in specified languages! ",
@@ -138,13 +147,22 @@ const events = {
       DesX: `   `
     },
     {
-      id: "4",
+      id: "5",
       name: "Rapid ML",
       description:
         " Teams craft ML models from surprise datasets, showcasing accuracy and precision ",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
+      DesX: `   `
+    },
+    {
+      id: "6",
+      name: "CreatiViz",
+      description:" Not Available",
+      deg: 135,
+      from: "#FFEE00",
+      to: "rgba(254, 253, 205, 1)",
       DesX: `   `
     },
   ],
@@ -184,6 +202,16 @@ const events = {
       from: " #a8ff78",
       to: " #FBD786",
       DesX: `   `
+    },
+    {
+      id: "5",
+      name: " Thug of War",
+      description:
+        "   Not Available.",
+      deg: 135,
+      from: "#FFEFBA 40%",
+      to: " #f5af19",
+      DesX: `  `
     },
   ],
   ECE: [
