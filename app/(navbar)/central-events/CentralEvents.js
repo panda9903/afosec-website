@@ -7,6 +7,7 @@ const events = {
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
+      DesX: `    `,
     },
     {
       id: "2",
@@ -15,6 +16,7 @@ const events = {
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
+      DesX: `    `,
     },
     {
       id: "3",
@@ -23,6 +25,7 @@ const events = {
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
+      DesX: `    `,
     },
     {
       id: "4",
@@ -31,6 +34,7 @@ const events = {
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
+      DesX: `    `,
     },
     {
       id: "5",
@@ -39,6 +43,7 @@ const events = {
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
+      DesX: `    `,
     },
   ],
   "Literature Events": [
@@ -49,14 +54,16 @@ const events = {
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-    },
-    {
-      id: "2",
-      name: "Thematic Collage",
-      description: " Not Available. ",
-      deg: 135,
-      from: " #a8ff78",
-      to: " #FBD786",
+      DesX: `
+
+      <br> Glimpses of India (India Quiz)
+          <br> ●	Three members form a team.
+          <br> ●	There will be a preliminary written test on multi-dimensional aspects.
+          <br>●	6 teams will be short listed for the final round. Organizers reserve the right to modify the number based on the participation.
+          <br>●	The Final round will be Oral.
+          <br>●	Quiz Master's decision is final and binding.
+
+          `,
     },
     {
       id: "3",
@@ -65,6 +72,17 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
+      DesX: `
+
+      <br>Srujana (Creative Writing)
+          <br>  ●	It is an individual event.
+          <br>  ●	Picture / photograph will be displayed.
+          <br>  ●	The participant has to write a poem/story/critical note/advertisement/any other descriptive piece of writing not exceeding 200 words.
+          <br>  ●	The creative piece of writing compiled by the participant should establish a conceptual link between and among the picture(s) or photo(s) shown.
+          <br>  ●	Maximum time allowed is 20 minutes.
+          <br> ●	Malpractice of any kind will lead to disqualification.
+          <br> ●	Participant has to answer the questions, if any, posed by the jury. The decision of the judges is final and binding.
+          `,
     },
     {
       id: "4",
@@ -73,14 +91,16 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-    },
-    {
-      id: "5",
-      name: "Chitra Katha",
-      description: " Narration of a Picture. ",
-      deg: 135,
-      from: " #a8ff78",
-      to: " #FBD786",
+      DesX: `
+      <br>GAB FAB (Extempore Floor crossing in English)
+          <br>  ●	It is an individual event.
+          <br>  ●	First round is the Rapid speaking session the topic for which is announced 15 minutes before.
+          <br> ●	Each participant has to speak for 2minutes.
+          <br> <br> ●	The second and final round is monitored on Dynamic discussion.
+          <br> ●	The discussion will be held in small groups which aim at testing the following:   communication, Presentation, Persuasion and Negotiation skills in the case model.
+          <br> ●	Participants have to respond to the questions, if posed, by Jury.
+          <br>●	The decision of the judges is final and binding.
+          `,
     },
     {
       id: "6",
@@ -89,23 +109,15 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
+      DesX: `
+
+          <br>Wrangle (The Debate)
+          <br>●	Each participant will be given maximum 5 minutes time to speak either in favour or against the subject.
+          <br>●	A warning bell will be given after 4 minutes and a final bell after 5 minutes. If the participant exceeds the allocated time than the marks will be deducted at the discretion of the judges.
+          <br>●	The decision of the judges is final and binding.
+            `,
     },
-    {
-      id: "7",
-      name: "Splash of Colours",
-      description: " Thematic Painting. ",
-      deg: 135,
-      from: " #a8ff78",
-      to: " #FBD786",
-    },
-    {
-      id: "8",
-      name: "Explicit Expressions",
-      description: " Standup Comedy. ",
-      deg: 135,
-      from: " #a8ff78",
-      to: " #FBD786",
-    },
+
   ],
   "Cultural Events": [
     {
@@ -115,6 +127,7 @@ const events = {
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
+      DesX: `    `,
     },
     {
       id: "2",
@@ -123,6 +136,7 @@ const events = {
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
+      DesX: `    `,
     },
     {
       id: "3",
@@ -131,6 +145,7 @@ const events = {
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
+      DesX: `    `,
     },
     {
       id: "4",
@@ -139,6 +154,7 @@ const events = {
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
+      DesX: `    `,
     },
   ],
 };

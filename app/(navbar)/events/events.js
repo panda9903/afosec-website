@@ -274,7 +274,7 @@ const events = {
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-      DesX: `   `
+      DesX: `  Please Contact AIDS Department coordinators for more details.`
     },
     {
       id: "2",
@@ -283,7 +283,7 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-      DesX: `   `
+      DesX: `  Please Contact AIDS Department coordinators for more details.  `
     },
     {
       id: "3",
@@ -292,7 +292,7 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-      DesX: `   `
+      DesX: `   Please Contact AIDS Department coordinators for more details. `
     },
     {
       id: "4",
@@ -301,7 +301,7 @@ const events = {
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-      DesX: `   `
+      DesX: `   Please Contact AIDS Department coordinators for more details. `
     },
     {
       id: "5",
@@ -311,7 +311,7 @@ const events = {
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
-      DesX: `  `
+      DesX: `  Please Contact AIDS Department coordinators for more details. `
     },
   ],
   ECE: [
@@ -1114,7 +1114,6 @@ const events = {
       to: "#ffdde1",
       DesX: `  				- The Kwiz Kraft <br>
       <br>With a range of questions being asked from business related aspects from India to the world, this event is sure to put your awareness about the corporate world to a test. This event also promises to enlighten the participants and the audience with some surprising, yet true facts about the business world.
-    
       <br> CONTACT: 	<br>K.Vasanthi-7989966464		<br>K.Gopi - 9100889885
     `
     },
@@ -1143,7 +1142,6 @@ const events = {
       DesX: ` - Dreams come true <br>
       <br>●	This event is conducted in 3-rounds to test marketing knowledge and skills of the team in marketing a product.
       <br> ●	Teams must bring their own material/equipment
-      
       <br> CONTACT:   <br>B.Aparajitha - 8500229119	<br>S. Bhargavi Kalyani - 9985969860
         `
     },
@@ -1157,8 +1155,6 @@ const events = {
       to: "#ffdde1",
       DesX: ` - The Personality Contest <br>
       <br> ●	This event presents 3-rounds with ultimate challenge for future managers. <br>The contest will encourage participant’s technical knowledge, presentation skills & team work to think out of the box and come up with answers that will have a significant value on organizational life.
-      
-      
       <br> CONTACT:<br> M.Durga Meghana -7032433146<br> C.Harika - 7396528363
         `
     },
@@ -1172,7 +1168,6 @@ const events = {
       DesX: `  <br>Secret safari (3 per team): <br>
       <br> ●	An event to hunt the business clues.
       <br><br> CONTACT: <br>P. Bhanu Prakash – 9492529429   <br>      G. Vagiri Sai - 9398150186
-                
       <br> General guidelines for participants:
       <br>  ●	Spot Registration starts at 8:30 AM
       <br> ●	Registration fee is Rs.200/- per head.
@@ -1221,7 +1216,6 @@ const events = {
       <br> 2.	Comprises of 30 questions with time duration of 40 minutes.
       <br> 3.	Mobile phones and other electronics devices are strictly prohibited.
       <br>4.	The top 2 teams with highest scores will be awarded prizes and Participation certificates are given to all the participants.
-      
       <br>Coordinators:
       <br>Faculty - Mr.J.Hari Krishna
       <br>Students - V.Ashok +91 90596 57458
@@ -1232,7 +1226,7 @@ const events = {
     {
       id: "3",
       name: "Avishkar Anveshan",
-      description: "Description about event",
+      description: "Work on a innovative problem statement and prepare a detailed solution",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
