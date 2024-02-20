@@ -3,7 +3,7 @@ const events = {
     {
       id: "1",
       name: " Empowered Indians",
-      description:" Not Available. ",
+      description:" Will be updated very shortly else contact the respective coordinators. ",
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
@@ -12,7 +12,7 @@ const events = {
     {
       id: "2",
       name: "[Thriving & Sustainable Economy]",
-      description: " Not Available. ",
+      description: " Will be updated very shortly else contact the respective coordinators. ",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
@@ -21,7 +21,7 @@ const events = {
     {
       id: "3",
       name: "Innovation Science & Technology.",
-      description:"Not Available. ",
+      description:"Will be updated very shortly else contact the respective coordinators. ",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
@@ -30,7 +30,7 @@ const events = {
     {
       id: "4",
       name: "Good Governance & Security.",
-      description:" Not Available.",
+      description:" Will be updated very shortly else contact the respective coordinators.",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",
@@ -39,7 +39,7 @@ const events = {
     {
       id: "5",
       name: "India in the World.",
-      description:" Not Available.",
+      description:" Will be updated very shortly else contact the respective coordinators.",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
@@ -68,7 +68,7 @@ const events = {
     {
       id: "3",
       name: " Srujana",
-      description: "  Creative Writing in Telugu. ",
+      description: "  Creative Writing ",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
@@ -87,7 +87,7 @@ const events = {
     {
       id: "4",
       name: " Gab Fab",
-      description: "  Extempore Floor-crossing.",
+      description: "  Extempore Floor-crossing in English.",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
@@ -132,7 +132,7 @@ const events = {
     {
       id: "2",
       name: "Vocal Vortex",
-      description: " Not Available. ",
+      description: " Will be updated very shortly else contact the respective coordinators. ",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
@@ -141,7 +141,7 @@ const events = {
     {
       id: "3",
       name: "Rythmic Revelry.",
-      description:"Not Available. ",
+      description:"Will be updated very shortly else contact the respective coordinators. ",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
@@ -150,7 +150,7 @@ const events = {
     {
       id: "4",
       name: "Team Tempo.",
-      description:" Not Available.",
+      description:" Will be updated very shortly else contact the respective coordinators.",
       deg: 135,
       from: "#f5af19",
       to: "#ffffff",

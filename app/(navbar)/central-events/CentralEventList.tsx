@@ -14,10 +14,12 @@ type Event = {
   deg: number;
   from: string;
   to: string;
+  DesX: string;
 };
 
-const EventsList = () => {
+const CentralEventsList = () => {
   const events = Object.entries(eventList);
+
   const [show, setShow] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
 
@@ -42,7 +44,7 @@ const EventsList = () => {
           }}
         >
           <Modal.Header closeButton className="flex flex-row justify-between ml-2">
-            <Modal.Title className="text-[#EA8814] text-3xl mb-8 ">
+            <Modal.Title className="text-[#EA8814] text-3xl mb-8 w-11/12">
               {selectedEvent.name}
             </Modal.Title>
             <Button
@@ -53,7 +55,9 @@ const EventsList = () => {
             </Button>
           </Modal.Header>
           <Modal.Body className="text-white text-base px-2">
-            {selectedEvent.description}
+            {selectedEvent.DesX.split('<br>').map((line, index) => (
+              <p key={index}>{line}</p>
+            ))}
           </Modal.Body>
           <Modal.Footer className="mt-8 ml-2">
             <Button variant="secondary" onClick={handleClose}>
@@ -69,7 +73,7 @@ const EventsList = () => {
               {department}
             </p>
             <div className="flex md:flex-row gap-4 flex-col flex-wrap justify-center items-center md:justify-start">
-              {events.map(({ id, name, description, deg, from, to }) => {
+              {events.map(({ id, name, description, deg, from, to, DesX }) => {
                 return (
                   <div key={name}>
                     <div className="flip-card" key={name}>
@@ -99,6 +103,7 @@ const EventsList = () => {
                                 deg,
                                 from,
                                 to,
+                                DesX,
                               });
                             }}
                           >
@@ -117,4 +122,4 @@ const EventsList = () => {
     </>
   );
 };
-export default EventsList;
+export default CentralEventsList;

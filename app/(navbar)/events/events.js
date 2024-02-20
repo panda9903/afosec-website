@@ -307,7 +307,7 @@ const events = {
       id: "5",
       name: " Thug of War",
       description:
-        "   Not Available.",
+        "   Will be updated very shortly else contact the respective coordinators.",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
