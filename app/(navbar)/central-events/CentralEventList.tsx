@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { useRouter } from "next/navigation";
 import eventList from "./CentralEvents";
 import "./styles.css";
 
@@ -19,8 +18,6 @@ type Event = {
 
 const EventsList = () => {
   const events = Object.entries(eventList);
-  const router = useRouter();
-
   const [show, setShow] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
 

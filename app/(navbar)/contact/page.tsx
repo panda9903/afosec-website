@@ -33,7 +33,7 @@ export default function Home() {
 
         <p className="text-xl my-4">EIE</p>
         <p>B. Siva ganesh: 9704596970</p>
-        <p>Y .sushma: 7993597220</p>
+        <p>Akshitha : 6301416197</p>
 
         <p className="text-xl my-4">CSE</p>
         <p>T. Pranavi : 9396441551</p>

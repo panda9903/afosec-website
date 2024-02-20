@@ -1112,7 +1112,11 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-      DesX: `   `
+      DesX: `  				- The Kwiz Kraft <br>
+      <br>With a range of questions being asked from business related aspects from India to the world, this event is sure to put your awareness about the corporate world to a test. This event also promises to enlighten the participants and the audience with some surprising, yet true facts about the business world.
+    
+      <br> CONTACT: 	<br>K.Vasanthi-7989966464		<br>K.Gopi - 9100889885
+    `
     },
     {
       id: "2",
@@ -1122,7 +1126,11 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-      DesX: `   `
+      DesX: ` - A stock market game <br>
+      <br> ●	Velagapudi Ramakrishna Siddhartha Engineering College, Dept of Business Management is delighted to present its highly anticipated stock simulation competition. This immersive and dynamic event is open to both undergraduate and Post graduate students, offering them the thrilling opportunity to participate as Teams and showcase their trading skills in pursuit of impressive prizes.
+      <br>●	Are you ready to embark on an exhilarating journey to test your stock trading acumen, show your finance prowess and potentially win?
+      <br> CONTACT: <br> M. Sandeep – 8367294235  <br>G.Reshma 6301208646
+        `
     },
     {
       id: "3",
@@ -1132,7 +1140,12 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-      DesX: `   `
+      DesX: ` - Dreams come true <br>
+      <br>●	This event is conducted in 3-rounds to test marketing knowledge and skills of the team in marketing a product.
+      <br> ●	Teams must bring their own material/equipment
+      
+      <br> CONTACT:   <br>B.Aparajitha - 8500229119	<br>S. Bhargavi Kalyani - 9985969860
+        `
     },
     {
       id: "4",
@@ -1142,27 +1155,79 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-      DesX: `   `
+      DesX: ` - The Personality Contest <br>
+      <br> ●	This event presents 3-rounds with ultimate challenge for future managers. <br>The contest will encourage participant’s technical knowledge, presentation skills & team work to think out of the box and come up with answers that will have a significant value on organizational life.
+      
+      
+      <br> CONTACT:<br> M.Durga Meghana -7032433146<br> C.Harika - 7396528363
+        `
+    },
+    {
+      id: "5",
+      name: " Secret safari ",
+      description:" ●	An event to hunt the business clues. ",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+      DesX: `  <br>Secret safari (3 per team): <br>
+      <br> ●	An event to hunt the business clues.
+      <br><br> CONTACT: <br>P. Bhanu Prakash – 9492529429   <br>      G. Vagiri Sai - 9398150186
+                
+      <br> General guidelines for participants:
+      <br>  ●	Spot Registration starts at 8:30 AM
+      <br> ●	Registration fee is Rs.200/- per head.
+      <br> ●	For spot registration, Registration kit along with lunch coupon is provided on First come First Serve basis.
+      <br> ●	Accommodation will be provided for students coming from long distances upon prior request only.
+      <br> ●	Every participant must produce college ID cards and authorization letter from concerned authorities.
+      <br> ●	Prelims round is conducted for every professional event.
+      <br> ●	Participants who are not shortlisted in prelims of professional events can avail to participate in Non-professional event.
+      <br> ●	Exclusive Participation in non-professional events is allowed on prior registration.
+      <br> ●	Event coordinators & Judges Decision is final.
+    `
     },
   ],
   MCA: [
     {
       id: "1",
       name: "Aakritiparva",
-      description: "Description about event",
+      description: " Test your designing skills as a professional designe",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-      DesX: `   `
+      DesX: `  <br> The UX/ UI Competition will test your designing skills as a professional designer. Participants has to create user interface of a website prior to the event and present it during the event before the Judge.
+      <br>Rules and Regulations:
+      <br>1.	Only 2 participants are allowed per team.
+      <br>2.	The developed website / web application has to be uploaded to GITHUB and the viewing link has to be submitted.
+      <br>3.	The evaluation of your work will be done through the Judging Criteria which includes Uniqueness(Ingenuity), User Experience, Practical usecase (Impact) and presentation skills.
+      <br>4.	The presentation will be followed by a Q&A session.
+      <br>5.	The top 2 teams will be awarded prizes and Participation certificates are given to all the participants.
+      <br>Coordinators:
+      <br>Faculty - Mrs.M.Prasanna Lakshmi Students - G.Rakesh +91 63039 89719
+      <br>K.SindhuPriya +91 70750 15677
+      <br>P.Tejaswi +91 94934 39178
+      `
     },
     {
       id: "2",
       name: "Techno Vidya",
-      description: "Description about event",
+      description: " identification of syntactical errors or correct syntax, predicting program outputs, and solving SQL queries.",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-      DesX: `   `
+      DesX: `  <br> A technical event using online platform/ written form featuring a variety of theoretical questions, tasks involving the identification of syntactical errors or correct syntax, predicting program outputs, and solving SQL queries.
+
+      <br>Rules and Regulations:
+      <br> 1.	Only 2 participants are allowed per team.
+      <br> 2.	Comprises of 30 questions with time duration of 40 minutes.
+      <br> 3.	Mobile phones and other electronics devices are strictly prohibited.
+      <br>4.	The top 2 teams with highest scores will be awarded prizes and Participation certificates are given to all the participants.
+      
+      <br>Coordinators:
+      <br>Faculty - Mr.J.Hari Krishna
+      <br>Students - V.Ashok +91 90596 57458
+      <br>Ch.Naga Harshitha +91 94941 25507
+      <br>K.Indraja +91 76719 12362
+      `
     },
     {
       id: "3",
@@ -1171,7 +1236,18 @@ const events = {
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
-      DesX: `   `
+      DesX: `<br>  A team of 2 participants has to work on a innovative problem statement and prepare a detailed solution in the form of a report(pdf) prior to the event and present it during the event before the Judge.
+      <br>Rules and Regulations:
+      <br>1.	Only 2 participants are allowed per team.
+      <br>2.	On the day of the fest, the participants should present a PPT outlining the issue and their solution within 7 minutes. Implementation is not required.
+      <br>3.	Participants need to submit their report which should include Abstract, Introduction(must include given problem statement), Project flow diagram, Methodology (Algorithms) and Solution.
+      <br>4.	The presentation will be followed by a Q&A session.
+      <br>5.	The top 2 teams will be awarded prizes and Participation certificates are given to all the participants.
+      <br>Coordinators:
+      <br>Faculty - Dr.K.Parish Venkata Kumar <br> Students - A.Rehman Shaik +91 81792 96999
+      <br>P.Srilakshmi Niharika +91 94921 04381
+      <br>K.Alekhya +91 89195 91274
+        `
     },
   ],
 };
