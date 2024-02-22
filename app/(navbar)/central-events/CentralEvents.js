@@ -1,51 +1,42 @@
 const events = {
-  IDEATION: [
+  "Ideation": [
     {
       id: "1",
-      name: " Empowered Indians",
-      description:" Will be updated very shortly else contact the respective coordinators. ",
+      name: "Ideation",
+      description:"An idea pitching contest where the brightest minds shine",
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
-      DesX: `    `,
+      DesX: `🥳VR Siddhartha Engineering College invites you to Ideathon @  AFOSEC 2024 <br>
+
+      ⚡⚡Ideathon is a idea pitching cum project expo contest.The theme designated for this year's ideathon at AFOSEC 2024🔥 is Viksit Bharat. Your ideas can be from a wide range of domains. <br>
+      
+      Guidelines: <br>
+      
+      ● Participants are required to submit an abstract or ppt or demo video/audio in the registration link. <br>
+      
+      ● Shortlisted submissions will be required to attend the offline finale during AFOSEC fest at VRSEC. The final round is a PPT presentation round.💻💻 <br>
+      
+      ● Top 3 ideas will be rewarded in kind with exciting cash rewards 🏆🏆🏆 <br> <br> <br>
+      
+      Register now in the google form : https://forms.gle/neQDz7j5rn2EERRT9`
     },
-    {
-      id: "2",
-      name: "[Thriving & Sustainable Economy]",
-      description: " Will be updated very shortly else contact the respective coordinators. ",
-      deg: 135,
-      from: "rgba(163, 230, 255, 1)",
-      to: " #FFEFBA 80%",
-      DesX: `    `,
-    },
-    {
-      id: "3",
-      name: "Innovation Science & Technology.",
-      description:"Will be updated very shortly else contact the respective coordinators. ",
-      deg: 135,
-      from: "#FFEFBA 40%",
-      to: " #f5af19",
-      DesX: `    `,
-    },
-    {
-      id: "4",
-      name: "Good Governance & Security.",
-      description:" Will be updated very shortly else contact the respective coordinators.",
-      deg: 135,
-      from: "#f5af19",
-      to: "#ffffff",
-      DesX: `    `,
-    },
-    {
-      id: "5",
-      name: "India in the World.",
-      description:" Will be updated very shortly else contact the respective coordinators.",
-      deg: 135,
-      from: "rgba(163, 230, 255, 1)",
-      to: " #FFEFBA 80%",
-      DesX: `    `,
-    },
-  ],
+      ],
+
+      "Project Expo": [
+        {
+          id: "1",
+          name: "Project Expo",
+          description:"The future is bright! Witness the next generation of problem-solvers and changemakers at the project expo.",
+          deg: 135,
+          from: "rgba(254, 253, 205, 1) 11.2%",
+          to: "rgba(163, 230, 255, 1) 91%",
+          DesX: `The Project Expo on February 28th welcomes teams from all engineering branches to showcase their ingenuity. <br> Whether it's mechanical, electrical, civil, or any other discipline, participants are encouraged to present their innovative prototypes and models. Each team of two must bring an A3 poster outlining their project alongside their working prototypes. <br> 
+          Commencing at 9:30 AM, the event promises a platform for cross-disciplinary collaboration and inspiration.  <br>
+          With lucrative prizes including ₹5,000 for the first prize, ₹3,000 for the second, and ₹2,000 for the third, competition will be fierce across all branches. 
+          <br>Join us for a celebration of engineering creativity and the future of technological advancement. This expo is a testament to the diverse talents and expertise within the engineering community.`
+        }
+      ],
   "Literature Events": [
     {
       id: "1",
