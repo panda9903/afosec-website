@@ -22,25 +22,25 @@ const eventDetails = [
   {
     id: 1,
     title: "Music Night",
-    date: "India Quiz",
+    date: "Beats ON, Worries OFF",
     image: DJ,
   },
   {
     id: 2,
     title: "Camp Fire",
-    date: "Creative Writing",
+    date: "Where fire meets freedom",
     image: Fire,
   },
   {
     id: 3,
     title: "Fashion Walk",
-    date: "Extempore Floor Crossing",
+    date: "Walk like nobody's watching",
     image: Walk,
   },
   {
     id: 4,
     title: "Stalls",
-    date: "The  Debate",
+    date: "Foooooooooooooooooooood!!",
     image: Stalls,
   },
   
