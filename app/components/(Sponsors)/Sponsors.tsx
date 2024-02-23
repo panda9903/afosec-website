@@ -6,7 +6,7 @@ import Image from "next/image";
 const Sponsors = () => {
   return (
     <section id="sponsors" className="mb-10">
-      <h2 className="text-9xl font-bold text-center mt-20 mb-10">Sponsors</h2>
+      <h2 className="text-5xl font-bold text-center mt-20 mb-10">Sponsors</h2>
 {/*<Image
         src="/favicon.ico"
         alt="Picture of the author"
@@ -20,8 +20,8 @@ const Sponsors = () => {
           <Image
             src={CareerBaba}
             alt="Sponsor"
-            height={400}
-            width={400}
+            height={300}
+            width={300}
             className="mx-auto"
           />
         </div>
