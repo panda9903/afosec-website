@@ -266,52 +266,177 @@ const events = {
       <br>Get ready to unleash your creativity and design your way to victory at Creativiz! 🌟  `
     },
   ],
-  AIDS: [
+  "AI & DS": [
     {
       id: "1",
       name: "Green Gyan",
-      description: " Showcase sustainability in a poster!",
+      description: "  AI-Powered Sustainable Development Initiatives",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-      DesX: `  Please Contact AIDS Department coordinators for more details.`
+      DesX: ` <br> All that you need to know about Green Gyan: AI-Powered Sustainable Development Initiatives
+
+      <br> Embark on a transformative journey with the " Green Gyan: AI-Powered Sustainable Development Initiatives " competition, where Artificial Intelligence (AI) plays a crucial role in advancing sustainable development goals, aiding green investors in assessing climate risks. Its data-driven capabilities optimize energy usage, reduce carbon emissions, and enhance waste management. AI's predictive abilities contribute to effective disaster management. In smart city development, AI ensures resource efficiency and improved quality of life. AI also plays a key role in the agriculture sector too. Careful consideration of AI's environmental impact and risks is essential for sustainable deployment.
+
+      <br> Guidelines:
+
+      <br> • The event is structured into two rounds.
+      <br> • Find attached document below which contains require fields that are needed to be present in the paper and prepare a poster that reflects your idea present in the paper.
+      <br> • For the first round, participants will need to select there problem statement according to the theme mentioned above. Their task is to craft and submit Poster and Paper containing the solutions to their idea.
+      <br> • The second round will be an offline event happening during AFOSEC.
+      <br>• The second round will be a presentation round where participants need to bring ppt only.The teams shortlisted from round 1 will be required to present their solution in the form of a PPT (4-5 slides max EXCLUDING Introductory and Conclusion slides) infront of panel menbers offline during AFOSEC.
+      <br>• The event is open to all and inter-college teams are allowed.
+      <br>• Also, keep checking the Unstop page and Whatsapp Channel regularly for updates.
+
+      <br> Rules and Regulations:
+
+      <br> • Eligibility: Welcoming entries from all authorized organizations for undergraduate and graduate students. Participation is open to students with any specialization.
+      <br>• Team Competitions: Teams of 1 to 3 people can be formed by participants according to their flexibly.
+      <br>• Original Work: All submitted work must be original.
+      <br>• Submission format: All submissions must follow a specified format provided below in the document.
+      <br>• Evaluation criteria: Submissions will be evaluated based on innovation, presentation and effectiveness of proposed solutions.
+      <br>• Participants should be on their best behavior and follow basic etiquette while interacting with event coordinators.
+      <br>Note: To attend the finals at VR Siddhartha Engineering College, AFOSEC passport is mandatory. Every individual must apply for a passport on AFOSEC website. Detailed procedures will be communicated to the finalists following the announcement of round1 results.
+      <br>Timeline:
+      <br>Registration Deadline : 20 Feb 24, 11:59PM IST
+      <br>Round 1: Submission Round ( On Unstop)
+      <br>Participants will engage in a submission round where they'll craft innovative solution and submit their paper and poster through Unstop.
+      <br>Start date :  5 Feb 24 , 10:00PM IST <br> End date : 20 Feb 24, 11:59PM IST
+      <br>Round 2 : Offline Presentation Round (Offline)
+      <br>This is the final presentation round where shortlisted participants present their ideas to the panel of judges offline during AFOSEC 2024.
+      <br> Start date : 28 Feb 24, 10:00AM IST <br> End date :  28 Feb 24,  1:00PM IST
+
+      <br> Prizes and Rewards :
+      <br> Winner : Excellence Certificate with cash prize of 5000/-
+      <br><br>1st Runner Up : Excellence Certificate with cash prize of 2000/-
+      <br>2nd Runner Up : Excellence Certificate with cash prize of 1000/-
+      <br> Participation certificate will be provided to all the participants.`
     },
     {
       id: "2",
       name: "Code Wizards",
-      description: " Conquer coding challenges strategically in limited time. ",
+      description: " Prompt Engineering and Crack the Code ",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-      DesX: `  Please Contact AIDS Department coordinators for more details.  `
+      DesX: `<br>  All that you need to know about Event Announcement: Code Wizards - Prompt Engineering and Crack the Code
+
+      <br> Embark on a trans-formative journey with the " Code Wizards: Prompt engineering and Crack the Code " competition, to showcase their coding prowess and creative visualization skills.
+
+      <br> Guidelines:
+
+      <br> • The event is structured in single round and contains two sections.
+      <br> • The event will be an offline event happening during AFOSEC.
+      <br> • Section-1: Participants will be given a statement, and teams (max 3 members) need to visualize it using Adobe Firefly through prompt engineering.
+      <br> • Section-2: Participants will be given a sequence of numbers, and students need to crack the logic behind the sequence. They must write a program of their interest to print the next 3 numbers in the sequence.
+      <br> • The event is open to all and inter-college teams are allowed.
+      <br>• Also, keep checking the Unstop page and Whatsapp Channel regularly for updates.
+
+      <br>Rules and Regulations:
+
+      <br> • Eligibility: Welcoming entries from all authorized organizations for undergraduate and graduate students. Participation is open to students with any specialization.
+      <br> • Team Competitions: Teams of 1 to 3 people can be formed by participants according to their flexibly.
+      <br> • Evaluation criteria: Submissions will be evaluated based on innovation, presentation and effectiveness of proposed solutions.
+      <br> • Participants should be on their best behavior and follow basic etiquette while interacting with event coordinators.
+      <br> Note:
+      <br> 1. To attend the finals at VR Siddhartha Engineering College, AFOSEC passport is mandatory. Every individual must apply for a passport on AFOSEC website.
+      <br> 2. Spot registrations are available.
+
+      <br>Timeline:
+      <br>Registration Deadline : 27 Feb 24, 11:59PM IST
+      <br> Round 1 : Offline Presentation Round (Offline)
+      <br>This is where the event happens at the mentioned venue. The results will be monitored by the coordinators and The Judge decision will be final.
+
+      <br>Start date : 28 Feb 24, 10:00AM IST <br>End date :  28 Feb 24,  1:00PM IST
+      <br>Prizes and Rewards (Cash Prize)
+      <br>Certificate of Excellence for winners and cash prize(top 3)
+      <br>Participation certificate will be provided to all the participants.`
     },
     {
       id: "3",
-      name: " Whisper Challenge",
-      description: "  Repeat whispered phrases accurately. ",
+      name: " Deal Dash",
+      description: "  A Lightning Negotiation Extravaganza ",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-      DesX: `   Please Contact AIDS Department coordinators for more details. `
+      DesX: `
+      <br>All that you need to know about Deal Dash: A Lightning Negotiation Extravaganza
+      <br>Objective: Teams must negotiate, bid and acquire a set of items with limited resources(i.e., wallet price) within a short timeframe.
+      <br>
+      <br> Guidelines:
+      <br> • Each team is given a fixed budget or set of resources (e.g., virtual currency, points).
+      <br> • A list of items with corresponding values or ratings is provided. Items could be anything from virtual assets to hypothetical products.
+      <br> • Spot registrations are also considered.
+      <br> Rules and Regulations:
+      <br>
+      <br> • Eligibility: Welcoming entries from all authorized organizations for undergraduate and graduate students. Participation is open to students with any specialization.
+      <br> • Team Competitions: Teams of 1 to 4 people can be formed by participants according to their flexibly.
+      <br> • Teams have a limited time (e.g., 30 minutes) to negotiate, bid and acquire as many items ,each consist of separate ratings as possible.
+      <br> • Teams can negotiate with each other or with a facilitator acting as a vendor for the items.
+      <br> • Negotiations can involve bartering, trading, or bidding using their allocated resources.
+      <br> • Participants should be on their best behaviour and follow basic etiquette while interacting with event coordinators.
+      <br> • Teams strategize and prioritize which items they want to acquire based on their perceived value or importance.
+      <br> • Negotiations take place simultaneously among teams, creating a dynamic and competitive atmosphere.
+      <br> <br> • Teams must analyze the value of each item, anticipate the actions of other teams, and make quick decisions under pressure.
+      <br> Timeline:
+      <br> Registration Deadline : 27 Feb 24, 11:59PM IST(Tentative)
+      <br> Start date : 28 Feb 24, 12:00PM IST (Tentative)
+      <br> End date :  28 Feb 24,  1:00PM IST(Tentative)
+      <br>
+      <br>   Scoring:
+      <br>  • Points are awarded based on the value or rating of the items acquired by each team.
+      <br> • Additional points may be awarded for effective negotiation skills, creative strategies, and teamwork.
+      <br>  Prizes and Rewards:  <br><br>Certificates will be provided and prizes for winners       `
     },
     {
       id: "4",
-      name: " Photo Scavenger",
-      description: "  capture themed images, racing to bring the best shots first in this visual adventure.",
+      name: " Resourse Raid ",
+      description: "  The Ultimate Acquisition Challenge.",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
-      DesX: `   Please Contact AIDS Department coordinators for more details. `
+      DesX: `
+      <br> All that you need to know about Resource Raid: The Ultimate Acquisition Challenge
+
+      <br>  Get ready for an adrenaline-fueled adventure in "Resource Raid: The Ultimate Acquisition Challenge!” <br>This high-energy game is designed to test your strategic prowess, negotiation skills, and ability to think on your feet as you compete to acquire valuable resources by any means necessary.
+      <br>
+      <br> Guidelines:
+      <br>
+      <br> • The event is a single round event.
+      <br> • The event is open to all and inter-college teams are allowed.
+      <br> • Also, keep checking the Unstop page and WhatsApp Channel regularly for updates.
+      <br>
+      <br> Rules and Regulations:
+      <br>
+      <br>• Eligibility: Welcoming entries from all authorized organizations for undergraduate and graduate students. Participation is open to students with any specialization.
+      <br>• Team Competitions: Teams of 1 to 4 people can be formed by participants according to their flexibly.
+      <br>• After reaching to the venue we will provide you the list that you need to collect and submit those to the coordinators within time limit specified.
+      <br>• The list contains clues for the items, you need to decode the clue and find the things.
+      <br>• Each item in the list will have particular score, based on the total score of items submitted we will announce the winners.
+      <br>• Participants should be on their best behaviour and follow basic etiquette while interacting with event coordinators.
+      <br>Timeline:(Spot registrations are available)
+      <br> Registration Deadline :<br> 27 Feb 24, 11:59PM IST(Tentative)
+      <br>  Prizes and Rewards:
+      <br>  Certificates with prizes will be awarded for winners
+      <br>Participation certificates will be provided for participants.
+      <br>Event Co-ordinators: <br> N Dinesh Murali - 8328086838 `
     },
     {
       id: "5",
       name: " Thug of War",
       description:
-        "   Will be updated very shortly else contact the respective coordinators.",
+        "   pull the rope .",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
-      DesX: `  Please Contact AIDS Department coordinators for more details. `
+      DesX: `  <br> Objective: Participants have to pull the rope a designated distance towards their team's side of the field, causing the center mark on the rope to cross the centerline, before the opposing team can do the same.
+      <br> Eligibility: Everyone
+      <br>Team size: 6 participants per team Rules and Regulations:
+      <br> 1. The event will be conducted in the college.
+      <br> 2. Participants should be registered individually within the time or by spot registration.
+      <br>3. Fights and violence during the rounds will result in disqualification.
+      <br>4. The time limit is 45 seconds per round.
+      <br>5. In case no one wins, the team closest to the centerline loses.`
     },
   ],
   ECE: [
