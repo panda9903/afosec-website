@@ -15,8 +15,8 @@ export default function Home() {
       <NavBar />
       <Hero />
       <About />
+      <SpotLight />
       <Events />
-      <SpotLight /> 
       <Sponsors />
       <Footer />
     </div>
