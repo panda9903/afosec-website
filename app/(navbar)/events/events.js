@@ -1079,9 +1079,7 @@ const events = {
     },
     {
       id: "9",
-      name: "Lathe War",
-      description:
-        "  Stock market game challenge! Undergrad and postgrad teams showcase trading skills for thrilling prizes.",
+      name: "  Unleash your machining skills and let into the groove of screeching rhythms",
       deg: 135,
       from: "#ee9ca7",
       to: "#ffdde1",
@@ -1102,8 +1100,62 @@ const events = {
       <br>   A. VIJAY 	- 9032187808
         `
     },
+    
+    
+    {
+      id: "10",
+      name: " Business Plan Completition. ",
+      description:
+        "  young entrepreneurs develop a business plan to establish a new organization.",
+      deg: 135,
+      from: "#ee9ca7",
+      to: "#ffdde1",
+      DesX: `    ABOUT THE EVENT:
+Create a scenario where in young entrepreneurs develop a business plan to establish a new organization to generate job.
+ 
+OBJECTIVE:
+➢ To allow participants to study about a company and its operational model.
+➢ To understand the basic concepts of doing a business.
+➢ To induce the participants to generate new ideas.
+ 
+RULES:
+➢ A Maximum of 3 members can form as a team.
+➢ Business plan reporting should be in
+• Written plan as per the standard format only (<2000 words)
+• Presentation (<15 slides)
+➢ There will be three tiers.
+➢ In Tier-1 the teams are asked to choose a company which was started and currently existing in India for more than 3 years.
+➢ The company should fall under any of the following sectors – Automobile Retail & E-Commerce, Agro-based, IT, FMCG, Food, Travel, Pharma, Environment.
+➢ The teams must mention the company/business chosen by them.
+➢ The company should be active and doing business.
+➢ The team selected for Tier-2 should draft a marketing plan with the idea that they have proposed at Tier- 1 level and should use the knowledge gained from Tier-1 to frame an effective plan in the following format.
+• SWOT Analysis
+• Company offerings to the customer’s needs and benefits.
+• Target market
+• Marketing strategies
+• USP if any
+• Competitive analysis
+• Team member, their roles and responsibilities
+• Road Map for 3 years and projected balance sheet.
+Investment required initially and justification and cash flow required along with projected revenue along with dependencies.
+➢ The format is similar to the Tier-2 presentation. But the contestants from Tier 2 who qualify for Tier-3 will be mentored by a team of young entrepreneurs.
+➢ Any number of teams for Tier-1. The winner of Tier-1 shall be allowed to participate in Tier-2 and the winner & runners of Tier-2 from each division shall be allowed to participate in Tier 3 levels.
+PRESENTATION FORMAT:
+➢ Presentation should mention the company name and its sector and the management team along with its product and services.
+➢ Explain one key product/service in detail, and its customer’s benefits.
+➢ Mention its various marketing channels and its initial marketing strategies.
+➢ Your USP to compete with competitors.
+➢ If given a chance to start a company on their own, give details about the launch of the product and its relevance to the customer in any sector.
+VENUE:
+Mechanical Block, Room number 205
+Event Coordinators:-
+• VISHLESH​- 9989242567
+• MAANVI​- 9705266991
+ `
+    },
+    
   ],
-  MBA: [
+  qMBA: [
     {
       id: "1",
       name: " Brain Blasters - The Kwiz Kraft",
