@@ -75,11 +75,11 @@ const CentralEventsList = () => {
               {department}
             </p>
             {department === "Cultural Events" && <p className="mb-4 text-lg">
-              Register <a className="text-[#EA8814]" href="https://forms.gle/zScjBt4xKRQ2VegZ8" target="_blank">here</a>
+              Register <a className="text-[#EA8814] underline" href="https://forms.gle/zScjBt4xKRQ2VegZ8" target="_blank">here</a>
               </p>}
 
             {department === "Ideation" && <p className="mb-4 text-lg">
-            Register <a className="text-[#EA8814]" href="https://forms.gle/neQDz7j5rn2EERRT9" target="_blank">here</a></p>} 
+            Register <a className="text-[#EA8814] underline" href="https://forms.gle/neQDz7j5rn2EERRT9" target="_blank">here</a></p>}
 
             <div className="flex md:flex-row gap-4 flex-col flex-wrap justify-center items-center md:justify-start">
               {events.map(({ id, name, description, deg, from, to, DesX }) => {
