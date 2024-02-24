@@ -3,9 +3,11 @@
 import { Button } from "@/components/ui/button";
 import eventList from "./CentralEvents";
 import "./styles.css";
-
+import Image from "next/image";
 import { useState } from "react";
 import Modal from "react-bootstrap/Modal";
+import ideathon from "@images/ideathon.jpg";
+import Link from "next/link";
 
 type Event = {
   id: string;
@@ -72,6 +74,13 @@ const CentralEventsList = () => {
             <p className="text-2xl mb-4 text-[#EA8814] text-center md:text-left">
               {department}
             </p>
+            {department === "Cultural Events" && <p className="mb-4 text-lg">
+              Register <a className="text-[#EA8814]" href="https://forms.gle/zScjBt4xKRQ2VegZ8" target="_blank">here</a>
+              </p>}
+
+            {department === "Ideation" && <p className="mb-4 text-lg">
+            Register <a className="text-[#EA8814]" href="https://forms.gle/neQDz7j5rn2EERRT9" target="_blank">here</a></p>} 
+
             <div className="flex md:flex-row gap-4 flex-col flex-wrap justify-center items-center md:justify-start">
               {events.map(({ id, name, description, deg, from, to, DesX }) => {
                 return (
@@ -116,6 +125,8 @@ const CentralEventsList = () => {
                 );
               })}
             </div>
+            {department === "Ideation" && <a href="https://forms.gle/neQDz7j5rn2EERRT9" target="_blank"><Image className="mt-8" src={ideathon} alt="Ideathon Image" width={200}></Image></a>} 
+
           </div>
         );
       })}

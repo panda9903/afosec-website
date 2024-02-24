@@ -17,9 +17,7 @@ const events = {
       
       ● Shortlisted submissions will be required to attend the offline finale during AFOSEC fest at VRSEC. The final round is a PPT presentation round.💻💻 <br>
       
-      ● Top 3 ideas will be rewarded in kind with exciting cash rewards 🏆🏆🏆 <br> <br> <br>
-      
-      Register now in the google form : https://forms.gle/neQDz7j5rn2EERRT9`
+      ● Top 3 ideas will be rewarded in kind with exciting cash rewards 🏆🏆🏆 <br> <br> <br>`
     },
       ],
 
@@ -78,7 +76,7 @@ const events = {
     {
       id: "4",
       name: " Gab Fab",
-      description: "  Extempore Floor-crossing in English.",
+      description: "  Extempore Floor-crossing in English",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
@@ -96,7 +94,7 @@ const events = {
     {
       id: "6",
       name: "Wrangle",
-      description: " The Debate. ",
+      description: " The Debate",
       deg: 135,
       from: " #a8ff78",
       to: " #FBD786",
@@ -114,7 +112,7 @@ const events = {
     {
       id: "1",
       name: " Melody Mosiac",
-      description:" Singing. ",
+      description:" Singing",
       deg: 135,
       from: "rgba(254, 253, 205, 1) 11.2%",
       to: "rgba(163, 230, 255, 1) 91%",
@@ -123,7 +121,7 @@ const events = {
     {
       id: "2",
       name: "Vocal Vortex",
-      description: " Will be updated very shortly else contact the respective coordinators. ",
+      description: " Will be updated very shortly else contact the respective coordinators",
       deg: 135,
       from: "rgba(163, 230, 255, 1)",
       to: " #FFEFBA 80%",
@@ -132,7 +130,7 @@ const events = {
     {
       id: "3",
       name: "Rythmic Revelry.",
-      description:"Will be updated very shortly else contact the respective coordinators. ",
+      description:"Will be updated very shortly else contact the respective coordinators",
       deg: 135,
       from: "#FFEFBA 40%",
       to: " #f5af19",
@@ -140,7 +138,7 @@ const events = {
     },
     {
       id: "4",
-      name: "Team Tempo.",
+      name: "Team Tempo",
       description:" Will be updated very shortly else contact the respective coordinators.",
       deg: 135,
       from: "#f5af19",

@@ -11,6 +11,10 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-center mt-4">
         <div>
         <p className="my-4 text-2xl">Student Coordinators</p>
+
+        <p className="text-xl my-4">Culturals</p>
+        <p>Nandu : 9491453822</p>
+
         <p className="text-xl my-4">Civil</p>
         <p>Shaik Afreen: 9494116606</p>
         <p>Magupalli Harish: 8374808392</p>
@@ -47,7 +51,7 @@ export default function Home() {
         <p>G. Rakesh: 6303989719</p>
         <p>K. SindhuPriya: 7075015677</p>
 
-        <p className="text-xl my-4">Ai&Ds</p>
+        <p className="text-xl my-4">AI & DS</p>
         <p>Zayeem : 7396518259</p>
         <p> Leela Priya : 9398060950</p>
         </div>

@@ -17,7 +17,7 @@ const About = () => {
         />
       </div>
 
-      <div className=" mx-10 md:mt-8 md:mx-48 text-lg">
+      <div className=" mx-10 md:mt-8 md:mx-48 text-lg text-justify">
         AFOSEC 2024 is the annual Techno-Cultural-Literary Fest organized by the
         Department of Computer Science and Engineering of Velagapudi Ramakrishna
         Siddhartha Engineering College (VRSEC), one of the top engineering
