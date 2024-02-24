@@ -518,27 +518,29 @@ const events = {
     },
     {
       id: "5",
-      name: " Wizardy Thrones & KPop Chronicles",
+      name: " Telugu Movies Quiz ",
       description:
         "  Test your knowledge! Compete to answer fantasy franchise and music trivia questions, aiming for the highest score.",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
-      DesX: ` Objective:<br>
-      To answer different trivia questions on Fantasy Franchises and Music.<br>
-      Description:<br>
-      The teams need to answer different trivia questions correctly in the online quiz. The teams with the highest scores will win the event.<br>
-      Rules and Regulations:<br>
-       Each team should consist of at most 4 members.<br>
-       The team that will score the most points will win.<br>
-       Group members are to be registered separately.<br>
-      Eligibility: Students of any Stream <br>No. of participants: 1/2/3/4  `
+      DesX: ` <br> Objective:
+      <br>To answer different trivia questions on Telugu movies.
+      <br>Description:
+      <br>The teams need to answer different trivia questions correctly in the online quiz. The teams with the highest scores will win the event.
+      <br>Rules and Regulations:
+      <br>•	Each team should consist of at most 4 members.
+      <br>•	The team that will score the most points will win.
+      <br>•	Group members are to be registered separately.
+      <br>Eligibility: Students of any Stream
+      <br>No. of participants: 1/2/3/4
+      `
     },
     {
       id: "6",
-      name: "   Minute to Win It",
+      name: "   Minute to Win It ",
       description:
-        "Pop for a challenge! Individuals pop balloons, completing dares written inside within a thrilling 1-minute countdown.",
+        " Pop for a challenge! Individuals pop balloons, completing dares written inside within a thrilling 1-minute countdown. ",
       deg: 135,
       from: "#ffffff",
       to: "#a8ff78",
