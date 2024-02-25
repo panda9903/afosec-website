@@ -125,7 +125,10 @@ const CentralEventsList = () => {
                 );
               })}
             </div>
-            {department === "Ideation" && <a href="https://forms.gle/neQDz7j5rn2EERRT9" target="_blank"><Image className="mt-8" src={ideathon} alt="Ideathon Image" width={200}></Image></a>} 
+            {department === "Ideation" && (<><a href="https://forms.gle/neQDz7j5rn2EERRT9" target="_blank"><Image className="mt-8" src={ideathon} alt="Ideathon Image" width={200}></Image></a>
+            <div className="responsive-iframe" style={{border: '2px solid white'}}>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9f7xGdm352_tOvEeeXeHL_SzthhJINBCeW5LDzY9Ghw-fKg/viewform?embedded=true" style={{width:'100%', height:'55vh', border: 'none'}}>Loading…</iframe>
+            </div>         </>)} 
 
           </div>
         );
