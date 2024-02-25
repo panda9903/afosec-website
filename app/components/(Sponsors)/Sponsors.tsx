@@ -1,5 +1,5 @@
 import Leo from "@images/Leo.png";
-import CareerBaba from "@images/career.jpg";
+import CareerBaba from "@images/career.png";
 import Sahasra from "@images/sahasra.jpg";
 import Image from "next/image";
 
