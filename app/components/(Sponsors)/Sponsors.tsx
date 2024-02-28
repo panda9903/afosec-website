@@ -1,6 +1,8 @@
 import Leo from "@images/Leo.png";
 import CareerBaba from "@images/career.png";
 import Sahasra from "@images/sahasra.jpg";
+import Dev from "@images/dev.jpeg";
+import act from "@images/act.jpeg";
 import Image from "next/image";
 
 const Sponsors = () => {
@@ -39,7 +41,7 @@ const Sponsors = () => {
             className="mx-auto"
           />
           */}
-          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><p> This Place awaits Just for YOU. Trust us.</p><br></br>
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </div>
       </div>
       <br></br><br></br><br></br>
@@ -62,22 +64,28 @@ const Sponsors = () => {
             width={200}
             className="mx-auto"
           />
+        </div> <div className="flex flex-col items-center">
+          <Image
+            src={Dev}
+            alt="Sponsor"
+            height={200}
+            width={200}
+            className="mx-auto"
+          />
         </div>
       </div>
       <br></br><br></br><br></br>
       <h4 className="text-xl font-bold text-center">Supporting Sponsors</h4>
       <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-10">
         <div className="flex flex-col items-center">
-          {/*
           <Image
-            src={Leo}
+            src={act}
             alt="Sponsor"
-            height={400}
-            width={400}
+            height={100}
+            width={100}
             className="mx-auto"
           />
-          */}
-          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><p> This space needs you. Come along! </p><br></br>
+          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </div>
       </div>
       <br></br><br></br><br></br>
