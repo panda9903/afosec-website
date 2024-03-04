@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <About />
       <Events />
-      <Sponsors />
+     { /* <Sponsors /> */}
       <Footer />
     </div>
   );
